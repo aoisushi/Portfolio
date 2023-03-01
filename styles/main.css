@@ -1,0 +1,255 @@
+/* ============= Root =============  */
+:root {
+    --heading: 'Lilita One', cursive;
+    --paragraph: 'Questrial', sans-serif;
+    /* Base color */
+    --blue: #295976;
+    --pink: #EBB2B2;
+    --yellow: #F0D42E;
+    /* Background Color */
+    --bgYellow: #FCF6D5;
+    --bgBlue: #D4DEE3;
+    --bgPink: #F1D5D5;
+    /* Font color */
+    --fontcolor: #3F3F3F;
+    --btnFontColor: #191931;
+    --fontColorOnHeader: #1E1E1E;
+    /* Button */
+    --btnBg: #EAB3B3;
+}
+
+
+/* ============= Global - HTML ============= */
+* {
+    margin: 0 auto;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+body {
+    font-family: var(--paragraph);
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    min-height: 100vh;
+}
+
+/* ============= Typography ============= */
+h1, h2, h3 {
+    font-family: var(--heading);
+    color: var(--blue);
+}
+
+h4, h5 {
+    font-family: var(--paragraph);
+    color: var(--btnFontColor);
+    font-weight: 800;
+}
+
+h1, .h1 { font-size: 2rem }
+h2, .h2 { font-size: 1.5rem }
+h3, .h3 { font-size: 1.25rem }
+h4, .h4 { font-size: 1.25rem }
+h5, .h5 { font-size: 0.625rem }
+h6, .h6 { font-size: 1rem }
+
+/* ============= Layout ============= */
+section {
+    margin: 2.5rem 0;
+}
+
+.container {
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.is-flex {
+    display: flex;
+}
+
+.is-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 1rem;
+}
+
+/* Align */
+.text_align {text-align: center;}
+.align_center {align-items: center;}
+.justi_cen {justify-content: center;}
+
+
+/* gird - column */
+.col-1 { grid-column: span 1; }
+.col-2 { grid-column: span 2; }
+.col-3 { grid-column: span 3; }
+.col-4 { grid-column: span 4; }
+.col-5 { grid-column: span 5; }
+.col-6 { grid-column: span 6; }
+.col-7 { grid-column: span 7; }
+.col-8 { grid-column: span 8; }
+.col-9 { grid-column: span 9; }
+.col-10 { grid-column: span 10; }
+.col-11 { grid-column: span 11; }
+.col-12 { grid-column: span 12; }
+
+/* ============= Header & Footer ============= */
+header, footer {
+     color: var(--fontColorOnHeader);
+}
+
+header {
+    font-size: 1.1rem;
+}
+
+/* Header */
+.section_wrap {
+    background-color: var(--bgYellow);
+    width: auto;
+    height: 100vh;
+}
+.header_wrapper {
+    max-width: 85%;
+    height: 10.563rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.site-header {
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.site-header__logo img {
+    width: 45px;
+}
+
+.site-header__nav {
+    flex-grow: 1;
+    justify-content: end;
+}
+
+.site-header__nav ul {
+    gap: 1rem;
+}
+
+.site-header__nav a {
+    color: var(--fontColorOnHeader);
+}
+
+/*  Footer  */
+Footer {
+    width: auto;
+    height: 10.563rem;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.footer_sm {
+    padding: 2rem;
+    gap: 0.7rem;
+}
+
+.footer_sm img {
+    width: 1.5rem;
+}
+
+/* ============= btn ============= */
+.btn {
+    background-color: var(--btnBg);
+    color: var(--btnFontColor);
+    border-color: var(--btnFontColor);
+    border: 1px solid var(--btnFontColor);
+    border-radius: 167px;
+    padding: 12px 55px;
+}
+
+/* Btn Hover  */
+
+.btn:hover {
+    background-color: yellow;
+  }
+
+/* ============= Home Page ============= */
+
+/* Hero Section */
+.home_wrap {
+    margin: 10px;
+}
+
+.home_wrap img {
+    position: relative;
+    z-index: 2;
+}
+
+.circle {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 21.875rem;
+    height: 21.875rem;
+    position: relative;
+    left: 19px;
+    bottom: 322px;
+    z-index: 0;
+}
+
+
+/* Work */
+.home_works img {
+    width: 350px;
+    height: 323px;
+    border-radius: 15%;
+}
+/* ============= Media Query ============= */
+
+
+/*  Desktop Size  */
+@media only screen and (min-width: 841px) {
+    body {
+        background-color: darkgrey;
+    }
+    /* Layout */
+
+    .col-1-md { grid-column: span 1; }
+    .col-2-md { grid-column: span 2; }
+    .col-3-md { grid-column: span 3; }
+    .col-4-md { grid-column: span 4; }
+    .col-5-md { grid-column: span 5; }
+    .col-6-md { grid-column: span 6; }
+    .col-7-md { grid-column: span 7; }
+    .col-8-md { grid-column: span 8; }
+    .col-9-md { grid-column: span 9; }
+    .col-10-md { grid-column: span 10; }
+    .col-11-md { grid-column: span 11; }
+    .col-12-md { grid-column: span 12; }
+    
+    /* Typo */
+
+    h1, .h1 { font-size: 4rem }
+    h2, .h2 { font-size: 3rem }
+    h3, .h3 { font-size: 1.5rem }
+    h4, .h4 { font-size: 2rem }
+    h5, .h5 { font-size: 1.25rem }
+    h6, .h6 { font-size: 1rem }
+
+    /* Header */
+    header {
+        font-size: 1.25rem;
+    }
+    
+    .site-header__nav a:hover {
+        text-decoration: underline;
+    }
+    /* Logo */
+    .site-header__logo img {
+        width: 75px;
+    }
+  }
+
+
+  /* Desktop Size End */
