@@ -1,66 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Kylie Chan | UI/UX Designer</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Questrial&display=swap"
-      rel="stylesheet"/>
-    <link rel="stylesheet" href="styles/reset.css" />
-    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Questrial&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="styles/reset.css"/>
+    <link rel="stylesheet" href="styles/main.css"/>
   </head>
   <body>
     <header>
-         
-      <img src="images/logo.svg" alt="Kylie's logo on the header" width="80" />
-      <nav>
-        <ul>
-          <li>About</li>
-          <li>UX/UI</li>
-          <li>Branding</li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section>
-        <div class="heading">
-          <h1>Heading</h1>
-          <h2>Heading</h2>
-          <h3>Heading</h3>
-          <h4>Heading</h4>
-          <h5>Heading</h5>
-          <h6>Heading</h6>
-        </div>
-
-        <div class="paragraph">
-          <p>
-            What looked like a small patch of purple grass, above five feet
-            square, was moving across the sand in their direction.
-          </p>
-
-          <p>
-            When it came near enough he perceived that it was not grass; there
-            were no blades, but only purple roots. The roots were revolving, for
-            each small plant in the whole patch, like the spokes of a rimless
-            wheel.
-          </p>
-        </div>
-
-        <button class="btn">View Full Project!!!</button>
-      </section>
-      <section>
-        <div>
-          <h1>Work</h1>
-          <div class="is-grid">
-            <div class=""></div>
+      <div class="header_wrapper">
+          <div class="site-header is-flex">
+              <div class="site-header__logo">
+                  <a href="index.html"><img src="images/logo.svg" alt="Kylie's logo"></a>
+              </div>
+              <div class="site-header__menu-icon">
+                  <a href="#" class="js-menu-toggle"><img src="images/menu.svg" width="30"></a>
+              </div>
+                 <nav class="site-header__nav is-flex js-menu" data-open = "0">
+                  <ul class="is-flex">
+                      <li><a href="about.html">About</a></li>
+                      <li><a href="UIUX_discipline.html">UI/UX</a></li>
+                      <li><a href="branding.html">Branding</a></li>
+                  </ul>
+              </nav>
           </div>
-        </div>
-      </section>
-    </main>
-    <footer>All Designed by &copy Kylie Chan 2023</footer>
-  </body>
+      </div>
+  </header>
+        
+  <main>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, aliquid!</p>
+    <button class="btn">
+        Load More 
+    </button>
+  </main>
+        
+    
+  <footer>
+    <div class="footer_sm is-flex justi_cen">
+        <a href="#" title="Find me on Instagram" target="_blank"><img class="#EBB2B2" src="images/insta.svg" alt="Instagram Icon"></a>
+        <a href="#" title="Find me on BeHance" target="_blank"><img src="images/behance.svg" alt="BeHance Icon"></a>
+        <a href="#" title="Find me on LinkedIn" target="_blank"><img src="images/linkedin.svg" alt="LinkedIn Icon"></a>
+        <a href="#" title="Contact me with Email" target="_blank"><img src="images/mail.svg" alt="Email Icon"></a>
+    </div>
+    <p>All Design and Hand Code by Kylie Chan 2023 &copy;</p>
+</footer>
+</div>
+</body>
 </html>

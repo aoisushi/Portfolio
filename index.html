@@ -18,60 +18,66 @@
                 <div class="header_wrapper">
                     <div class="site-header is-flex">
                         <div class="site-header__logo">
-                            <a href="#home"><img src="images/logo.svg" alt="Kylie's logo"></a>
+                            <a href="index.html"><img src="images/logo.svg" alt="Kylie's logo"></a>
                         </div>
-                        <nav class="site-header__nav is-flex">
+                        <div class="site-header__menu-icon">
+                            <a href="#" class="js-menu-toggle"><img src="images/menu.svg" width="30"></a>
+                        </div>
+                        <nav class="site-header__nav is-flex js-menu" data-open = "0">
                             <ul class="is-flex">
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">UI/UX</a></li>
-                                <li><a href="#">Branding</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="UIUX_discipline.html">UI/UX</a></li>
+                                <li><a href="branding.html">Branding</a></li>
                             </ul>
                         </nav>
                     </div>
                 </div>
             </header>
             <main>
-                <section>
+                <section class="hero_section">
                     <div class="home_wrap">
-                        <h1>Hello!I'm Kylie</h1>
-                        <p>Be Creative with me!</p>
-                        <img src="images/main.png" alt="" width="350">
-                        <div class="circle"></div>
+                        <div class="home_wrap_text">
+                            <h1>Hello!I'm Kylie</h1>
+                            <p class="is-blue">Be Creative with me!</p>
+                        </div>
+                        <div class="home_wrap_img text_align">
+                            <img src="images/home_hi.png" alt="">
+                        </div>
                     </div>
                 </section>
         </div>
-            <section>
-                <div class="align_center text_align">
-                    <h2>👩🏻‍💻 My Work</h2>
+            <section class="homepage_work">
+                <div class="homepage_work_wrap align_center text_align">
+                    <h2 class="home_work_h2">👩🏻‍💻 My Work</h2>
                     <div class="is-grid">
                         <!-- Work1 -->
-                        <div class="home_works col-12 col-4-md">
-                            <a href="#" title="" target="_blank"><img src="images/paru_cover.jpg" alt=""></a>
+                        <div class="home_works col-12-sm col-12-md col-4-lg">
+                            <a href="#" title=""><img src="images/paru_cover.jpg" alt=""></a>
                             <div class="home_content">
-                                <a href="#" title="" target="_blank"></a><h3>Pa-ru, Accessories Online Shop</h3>
-                                <a href="#" title="" target="_blank"></a><p>UI/UX Study Case</p>
+                                <a href="#" title=""><h3>Pa-ru,<br>Accessories Online Shop</h3></a>
+                                <a href="#" title=""><p>UI/UX Study Case</p></a>
                             </div>
                         </div>
                         <!-- Work2 -->
-                        <div class="home_works col-12 col-4-md">
-                            <a href="#" title="" target="_blank"><img src="images/paru_cover.jpg" alt=""></a>
+                        <div class="home_works col-12-sm col-12-md col-4-lg">
+                            <a href="#" title=""><img src="images/coBear_cover.jpg" alt="">
                             <div class="home_content">
-                                <a href="#" title="" target="_blank"></a><h3>Pa-ru, Accessories Online Shop</h3>
-                                <a href="#" title="" target="_blank"></a><p>UI/UX Study Case</p>
+                                <a href="#" title=""><h3>Cobear Beverage</h3></a>
+                                <a href="#" title=""><p>Digital Illustration</p></a>
                             </div>
                         </div>
                         <!-- Work3 -->
-                        <div class="home_works col-12 col-4-md">
-                            <a href="#" title="" target="_blank"><img src="images/paru_cover.jpg" alt=""></a>
+                        <div class="home_works col-12-sm col-12-md col-4-lg">
+                            <a href="#" title=""><img src="images/hisani_cover.jpg" alt=""></a>
                             <div class="home_content">
-                                <a href="#" title="" target="_blank"></a><h3>Pa-ru, Accessories Online Shop</h3>
-                                <a href="#" title="" target="_blank"></a><p>UI/UX Study Case</p>
+                                <a href="#" title=""><h3>Hisani,<br>Omakase Restaurant</h3></a>
+                                <a href="#" title=""><p>Mobile App</p></a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <button class="btn is-flex justi_cen">
-                    See More My Works!
+                    <a href="#" title="Go To See More My Works" target="_blank">See More My Works!
                 </button>
             </section>
         </main>
@@ -82,7 +88,7 @@
                 <a href="#" title="Find me on LinkedIn" target="_blank"><img src="images/linkedin.svg" alt="LinkedIn Icon"></a>
                 <a href="#" title="Contact me with Email" target="_blank"><img src="images/mail.svg" alt="Email Icon"></a>
             </div>
-            <p>All Design by &copy; Kylie Chan 2023</p>
+            <p>All Design and Hand Code by Kylie Chan 2023 &copy;</p>
         </footer>
     </div>
 </body>
