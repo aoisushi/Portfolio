@@ -99,6 +99,7 @@ section {
 .col-11-sm { grid-column: span 11; }
 .col-12-sm { grid-column: span 12; }
 
+
 /* ============= Header & Footer ============= */
 header, footer {
      color: var(--fontColorOnHeader);
@@ -108,7 +109,7 @@ header {
     font-size: 1rem;
 }
 
-/* Header */
+/* Header + first section wrapper */
 .section_wrap {
     background-color: var(--bgYellow);
     width: auto;
@@ -116,50 +117,65 @@ header {
     margin: auto 0;
 }
 
-.header_wrapper {
+/* Header */
+.site-header__wrapper {
     max-width: 90%;
-    height: 5rem;
+    height: 6rem;
     margin: 0 auto;
     padding: 0 1rem;
+    justify-content: space-between;
 }
 
-.site-header {
-    align-items: center;
-    padding: 1rem 0;
-}
-
+/*  header - logo */
 .site-header__logo img {
     position: relative;
     width: 3.125rem;
 }
 
-/* header - hamburger menu */
+/* nav menu */
+.site-header__menu {
+    overflow: hidden;
+    position: absolute;
+    padding: 0 1rem;
+    display: none;
+}
 
-.site-header__menu-icon  {
+.site-header__menu.active {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--bgYellow);
+}
+
+.nav_menu_ul {
+   display: block;
+   margin-top: 150px;
+}
+
+/* menu items  */
+.nav_menu_ul li {
+    margin: 50px 0;
+    font-size: 28px;
+}
+
+/* header - hamburger icon */
+.site-header__menu-icon {
     display: block;
     cursor: pointer;
 }
 
-@media all and (max-width: 834px) {
-    .site-header__nav {
-        flex-grow: 1;
-        justify-content: end;
-        position: fixed;
-        left: -100%;
-    }
-
-    .site-header {
-        justify-content: space-between;
-    }
-}
-
-
-.site-header__nav ul {
-    gap: 2rem;
-}
-
-.site-header__nav a {
+.site-header__menu a {
     color: var(--fontColorOnHeader);
+}
+
+/* header - close btn */
+.close-btn {
+    display: flex;
+    justify-content: end;
+    margin: 30px;
 }
 
 /*  Footer  */
@@ -178,7 +194,6 @@ Footer {
 .footer_sm img {
     width: 1.5rem;
 }
-
 /* ============= global component ============= */
 /* button */
 .btn {
@@ -193,6 +208,7 @@ Footer {
 /* dividing line */
 .div_3dots {
     width: 6.25rem;
+    margin: 33px;
 }
 
 /* ============= Home Page ============= */
@@ -205,7 +221,8 @@ Footer {
 .home_wrap_text {
     margin: auto;
     width: fit-content;
-    position: relative;
+    padding-top: 80px;
+    /* position: relative; */
 }
 
 .home_wrap_text h1 {
@@ -224,7 +241,6 @@ Footer {
     width: 37.5rem;
     object-fit: cover;
 }
-
 
 /* Work */
 .homepage_work {
@@ -400,7 +416,6 @@ Footer {
     margin: auto;
 }
 
-
 .c4_color img {
     width: 21.875rem;
 }
@@ -412,22 +427,38 @@ Footer {
     line-height: 1.6;
 }
 
-.c4_art_collection {
-    width: 26.875rem;
-    /* overflow: hidden; */
+.c4_art_container {
+    margin: auto;
+    height: auto;
+    overflow: hidden;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
-.c4_art_collection img {
-    width: 15.625rem;
-    height: 15.625rem;
+.c4_art_container img {
+    width: 18.75rem;
+    height: 18.75rem;
     margin: 0 1.25rem;
     border-radius: 1.875rem;
+}
+
+/* btn */
+.pre-btn,
+.next-btn {
+  border: none;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.pre-btn img,
+.next-btn img {
+    width: 35px;
+    height: auto;
 }
 
 /* =======================================
                 Media Query 
    =======================================*/
-
 
 /*  ========= Tablet Size =========  */
 @media only screen and (min-width: 834px) {
@@ -462,23 +493,6 @@ Footer {
     /* Header */
     header {
         font-size: 1.25rem;
-    }
-
-    .site-header__menu-icon img {
-        display: none;
-    }
-    
-    .site-header__nav {
-        flex-grow: 1;
-        justify-content: end;
-    }
-    
-    .site-header__nav a:hover {
-        text-decoration: underline;
-    }
-    /* Logo */
-    .site-header__logo img {
-        width: 4.1875rem;
     }
     
     /* Btn */
@@ -569,10 +583,7 @@ Footer {
     grid-column: 4;
     }
 
-}
-
-/* Tablet size end here*/
-
+} /* Tablet size end here*/
 
 /*  ========= Desktop Size =========  */
 
@@ -595,16 +606,50 @@ body {
 .col-11-lg { grid-column: span 11; }
 .col-12-lg { grid-column: span 12; }
 
+/* ==== Header ==== */
 
+.site-header__menu-icon img {
+    display: none;
+}
 
+.site-header__menu {
+    display: block;
+    height: auto !important;
+    position: static;
+    width: auto;
+    top: unset ;
+    left: unset;
+    padding: unset;  
+}
+
+.site-header__menu ul {
+    border-radius: unset;
+    background-color: unset;
+    display: flex;
+    gap: 2rem;
+    margin-top: 0;
+}
+
+.site-header__menu a {
+    font-size: 22px;
+}
+
+.site-header__menu a:hover {
+    text-decoration: underline;
+    transition: 0.8s ease-in-out;
+}
+
+.close-btn {
+    display: none;
+}
 /* ==== Homepage ==== */
+
 
 /* ==== About ==== */
 .about_hero_wrap {
     width: 1000px;
     margin: auto;
 }
-
 
 /* ==== Discipline Pages ==== */
 .disci_container {
@@ -633,7 +678,4 @@ body {
     grid-column: 4;
 }
 
-
-}
-
-  /* Desktop Size End */
+} /* Desktop Size End */

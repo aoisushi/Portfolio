@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Kylie Chan | UI/UX Designer</title>
+    <!-- <link rel="icon" type="image/x-icon" href="images/favicon.ico"> -->
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
     <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Questrial&display=swap" rel="stylesheet"/>
@@ -13,24 +14,25 @@
   </head>
   <body>
     <header>
-      <div class="header_wrapper">
-          <div class="site-header is-flex">
-              <div class="site-header__logo">
-                  <a href="index.html"><img src="images/logo.svg" alt="Kylie's logo"></a>
-              </div>
-              <div class="site-header__menu-icon">
-                  <a href="#" class="js-menu-toggle"><img src="images/menu.svg" width="30"></a>
-              </div>
-                 <nav class="site-header__nav is-flex js-menu" data-open = "0">
-                  <ul class="is-flex">
-                      <li><a href="about.html">About</a></li>
-                      <li><a href="UIUX_discipline.html">UI/UX</a></li>
-                      <li><a href="branding.html">Branding</a></li>
-                  </ul>
-              </nav>
-          </div>
-      </div>
-  </header>
+        <div class="container">
+            <div class="site-header__wrapper is-flex align_center text_align">
+                <div class="site-header__logo">
+                    <a href="index.html"><img src="images/logo.svg" alt="A logo of Kylie's, it's her face"></a>
+                </div>
+                <div class="site-header__menu-icon">
+                    <a href="#" class="is-menu-toggle"><img class="is-menu-icon" src="images/menu.svg" alt="" width="45"></a>
+                </div>
+                <nav class="site-header__menu" data-open="0">
+                    <a href="#" class="close-btn"><img src="images/close.svg" alt="close button" width="50"></a>
+                    <ul class="nav_menu_ul is-flex">
+                        <li><a class="nav_menu_a" href="about.html">About</a></li>
+                        <li><a href="UIUX_discipline.html">UI/UX</a></li>
+                        <li><a href="branding.html">Branding</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
   <main>
     <!-- Heading of the artifact -->
     <section class="details_heading is-flex justi_cen text_align">
@@ -41,7 +43,7 @@
         </div>
     </section>
      <!-- Center Logo -->
-     <div class="is-flex justi_cen">
+    <div class="is-flex justi_cen">
         <img class="c4_arti_logo" src="images/logo.svg" alt="a logo from Kylie">
     </div>
     <!-- Top head - Yellow hero section -->
@@ -68,7 +70,7 @@
             </ul>
             <h3>Introduction</h3>
             <ul>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa hic eius necessitatibus, nobis voluptates quas aliquam assumenda veniam sint ut minus commodi quam.</li>
+                <li>This is my personal drawing account established in early 2020 on Instagram. This brand aims to share the funny daily life stories of mine and with my bunnies. </li>
             </ul>
         </div>
     </section>
@@ -79,7 +81,7 @@
     <!-- Second Section: Introduction about c4choco -->
     <section class="art_sections">
         <h3>What is c4choco?</h3>
-        <p>C4choco is an illustration brand that I started in 2020 during the pandemic. I started this drawing account because I want to record my daily life with my bunnies Choco and Creami. The brand name c4choco (c for choco) means “everything about Choco ''.</p>
+        <p>C4choco is an illustration brand that I started in 2020 during the pandemic. I started this drawing account because I want to record my daily life with my bunnies Choco and Creami. The brand name c4choco (c for choco) means “everything about Choco".</p>
         <h3>Brand Story</h3>
         <p>C4choco is a brand run by a professional rabbit-owner. The artwork from C4choco is mostly describing interesting daily life stories about interacting with bunnies, sharing love with each other. In my drawings, I want to contain a positive message of how fun it would be if you’re having a bunny as a pet.</p>
     </section>
@@ -120,30 +122,51 @@
     </section>
     <!-- Fifth Section: Art collection -->
     <section class="art_sections">
-        <h3 class="text_align">Art Collections</h3>
-        <div class="is-flex c4_art_collection">
-            <img src="images/c4_summer.jpg" alt="">
-            <img src="images/c4_fall.jpg" alt="">
-            <img src="images/c4_winter.jpg" alt="">
+        <h3 class="text_align" style="margin-bottom: 33px;">Art Collections</h3>
+        <!-- Art Connection -->
+        <div class="c4_art_container">
+            <div class="is-flex">
+                <img src="images/c4_summer.jpg" alt="">
+                <img src="images/c4_fall.jpg" alt="">
+                <img src="images/c4_winter.jpg" alt="">
+                <img src="images/c4_coffee.jpg" alt="">
+                <img src="images/c4_coffeeshop.jpg" alt="">
+                <img src="images/c4_coffeebags.jpg" alt="">
+                <img src="images/c4_creami_play.png" alt="">
+                <img src="images/c4_gacya.jpg" alt="">
+                <img src="images/c4_newyr1.png" alt="">
+                <img src="images/c4_newyr2.png" alt="">
+            </div>
+            <!-- button -->
         </div>
-        <p class="text_align">4 Seasons Collection</p>
-        <div class="is-flex c4_art_collection">
+        <div class="is-flex align_center justi_cen" style="margin-top: 33px;">
+            <button class="pre-btn"><img src="images/left.svg"></button>
+            <p class="text_align">Artworks of c4choco</p>
+            <button class="next-btn"><img src="images/right.svg"></button>
+        </div>
+
+
+        <!-- <div class="is-flex c4_art_collection">
             <img src="images/c4_coffee.jpg" alt="">
             <img src="images/c4_coffeeshop.jpg" alt="">
             <img src="images/" alt="">
         </div>
-        <p class="text_align">Coffee Choco Collection</p>
+        <div class="is-flex align_center justi_cen">
+            <img src="images/left.svg" alt="" width="45">
+            <p class="text_align">Coffee Choco Collection</p>
+            <img src="images/right.svg" alt="" width="45">
+        </div> -->
     </section>
-  </main>
-  <footer>
-    <div class="footer_sm is-flex justi_cen">
-        <a href="#" title="Find me on Instagram" target="_blank"><img class="#EBB2B2" src="images/insta.svg" alt="Instagram Icon"></a>
-        <a href="#" title="Find me on BeHance" target="_blank"><img src="images/behance.svg" alt="BeHance Icon"></a>
-        <a href="#" title="Find me on LinkedIn" target="_blank"><img src="images/linkedin.svg" alt="LinkedIn Icon"></a>
-        <a href="#" title="Contact me with Email" target="_blank"><img src="images/mail.svg" alt="Email Icon"></a>
-    </div>
-    <p>All Design and Hand Code by Kylie Chan 2023 &copy;</p>
-</footer>
-</div>
+    <script src="scripts/script.js"></script>
+    </main>
+    <footer>
+        <div class="footer_sm is-flex justi_cen">
+            <a href="https://www.instagram.com/kylie_aoi/" title="Find me on Instagram" target="_blank"><img class="#EBB2B2" src="images/insta.svg" alt="Instagram Icon"></a>
+            <a href="#" title="Find me on BeHance" target="_blank"><img src="images/behance.svg" alt="BeHance Icon"></a>
+            <a href="#" title="Find me on LinkedIn" target="_blank"><img src="images/linkedin.svg" alt="LinkedIn Icon"></a>
+            <a href="#" title="Contact me with Email" target="_blank"><img src="images/mail.svg" alt="Email Icon"></a>
+        </div>
+        <p>All Design and Hand Code by Kylie Chan 2023 &copy;</p>
+    </footer>
 </body>
 </html>
