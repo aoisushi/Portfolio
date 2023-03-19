@@ -138,6 +138,7 @@ header {
     position: absolute;
     padding: 0 1rem;
     display: none;
+    z-index: 11;
 }
 
 .site-header__menu.active {
@@ -385,6 +386,8 @@ Footer {
 }
 
 .disci_content {
+    justify-content: center;
+    display: grid;
     line-height: 1.5;
 }
 
@@ -394,14 +397,35 @@ Footer {
     padding: 2.9375rem 3.4375rem 4.375rem 3.4375rem ;
 }
 
+.artifact-overview {
+    position: relative;
+}
+
+.artifact-overview::before {
+    content: '';
+    width: 50px;
+    height: 50px;
+    background-image: url('../images/logo.svg');
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 50%;
+    transform: translate(-25px, -25px);
+    top: 0;
+}
+
 .c4_arti_logo {
     width: 2.75rem;
 }
 
 .c4_choco_creami {
     width: 9.5rem;
+    height: 9.5rem;
     background-color: #92adb8;
     border-radius: 50%;
+}
+
+.top_content_intro, .art_space {
+    margin-top: 2rem;
 }
 
 .c4_logo {
@@ -412,9 +436,25 @@ Footer {
     width: 18.75rem;
 }
 
+.characters {
+    width: 390px;
+    margin: auto;
+    line-height: 1.8;
+}
+
+.characters h4 {
+    font-family: var(--heading);
+    font-weight: 800;
+}
+
+.characters h4, .characters p {
+    margin-top: 15px;
+}
+
 .c4_color, .c4_color_content {
     margin: auto;
 }
+
 
 .c4_color img {
     width: 21.875rem;
@@ -452,9 +492,11 @@ Footer {
 
 .pre-btn img,
 .next-btn img {
-    width: 35px;
+    width: 2.1875rem;
     height: auto;
 }
+
+
 
 /* =======================================
                 Media Query 
@@ -462,9 +504,9 @@ Footer {
 
 /*  ========= Tablet Size =========  */
 @media only screen and (min-width: 834px) {
-    body {
+    /* body {
         background-color: darkgrey;
-    }
+    } */
 
     /* Layout */
 
@@ -569,28 +611,37 @@ Footer {
 
     
     /* ==== Discipline Pages ==== */
-    .disci_container {
+    /* .disci_container {
         text-align: center;
-    }
+    } */
+
     .disci_container img {
-        width: 600px;
+        width: 37.5rem;
         height: 22rem;
     }
 
     /* ==== Artifact_details page_c4choco ==== */
- 
+    .c4_choco_creami {
+        width: 15.625rem;
+        height: 15.625rem;
+    }
+
     .c4_color {
     grid-column: 4;
     }
 
+    .characters {
+        width: 300px;
+    }
+    
+
 } /* Tablet size end here*/
 
 /*  ========= Desktop Size =========  */
-
 @media only screen and (min-width: 1080px) {
-body {
+/* body {
     background-color: rgb(234, 150, 89);
-}
+} */
 
 /* Layout */
 .col-1-lg { grid-column: span 1; }
@@ -631,7 +682,7 @@ body {
 }
 
 .site-header__menu a {
-    font-size: 22px;
+    font-size: 1.375rem;
 }
 
 .site-header__menu a:hover {
@@ -647,7 +698,7 @@ body {
 
 /* ==== About ==== */
 .about_hero_wrap {
-    width: 1000px;
+    width: 62.5rem;
     margin: auto;
 }
 
@@ -664,18 +715,30 @@ body {
 }
 
 .img_left img {
-    width: 650px;
-    height: 402px;
+    width: 40.625rem;
+    height: 25.125rem;
 }
 
 .disci_content {
     grid-column: 8 / span 3;
+    margin-left: 3.125rem;
 }
 
 /* ==== Artifact_details page_c4choco ==== */
- 
+.top_container {
+    display: flex;
+}
+
+.arti_hero_bg, .top_content {
+    flex-basis: 50%;
+}
+
+.top_content {
+    line-height: 2.0;
+    margin: auto;
+}
+
 .c4_color {
     grid-column: 4;
 }
-
 } /* Desktop Size End */
