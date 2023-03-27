@@ -3,6 +3,7 @@
 @import url(../styles/about.css);
 @import url(../styles/discipline.css);
 @import url(../styles/details.css);
+@import url(../styles/uiux_detail.css);
 
 /* ============= Root =============  */
 :root {
@@ -22,8 +23,6 @@
     --fontColorOnHeader: #1E1E1E;
     /* Button */
     --btnBg: #EAB3B3;
-    /* Spacing */
-    --spacing: margin-bottom: 
 }
 
 /* ============= Global - HTML ============= */

@@ -1,0 +1,131 @@
+
+/* Project Outlines - Summary */
+
+/* Summary */
+
+.summary_wrap {
+    text-align: center;
+    padding-block: 2rem;
+}
+
+.summary_container {
+    padding-block: 2rem;
+}
+
+.summary_01, .summary_02, .summary_03 {
+    font-size: 65px;
+    /* background-color: var(--btnBg);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px; */
+    margin: auto;
+    text-align: center;
+}
+
+.summary_01 {color: var(--bgPink);}
+.summary_02 {color: var(--bgBlue);}
+.summary_03 {color: var(--bgYellow);}
+
+.summary_proce_01, .summary_proce_02, .summary_proce_03 {
+    color: #607d8b;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.intro, .detail_content_container {
+    line-height: 1.6;
+}
+
+.intro {
+    margin: 0 auto;
+    width: 333px;
+    background-color: var(--bgYellow);
+    padding: 47px 34px;
+    color: var(--blue);
+    border-radius: 33px;
+}
+
+.detail_content_wrap {
+    padding-inline: 3rem;
+    padding-block: 2rem;
+    margin: auto;
+}
+
+.detail_content_container h3, .detail_content_container p {
+    margin-bottom: 22px;
+}
+
+.detail_content_container h3 {
+    font-size: 33px;
+}
+
+.detail_images {
+    background-color: antiquewhite;
+    padding: 22px;
+    border-radius: 33px;
+}
+
+.caption {
+    font-size: 13px;
+    text-align: center;
+}
+
+.detail_btn {
+    background-color: var(--bgPink);
+    color: #fff;
+    border-radius: 44px;
+    text-align: center;
+    padding: 15px;
+}
+
+/* =======================================
+                Media Query 
+   =======================================*/
+
+@media only screen and (min-width: 834px) {
+
+    .summary_wrap {
+        display: flex;
+    }
+    .summary_container {
+        flex-basis: 33.333333%;
+    }
+
+    .summary_proce_01:hover {color: var(--pink);}
+    .summary_proce_02:hover {color: var(--blue);}
+    .summary_proce_03:hover {color: var(--yellow);}
+
+    .intro {
+        width: 600px;
+    }
+
+    /* section flex apply */
+
+    .detail_content_wrap {
+        display: flex;
+    }
+
+    .detail_content_container {
+        flex-basis: 50%;
+    }
+
+    .img-left {
+        margin: 33px;
+    }
+   
+    .detail_btn:hover {
+        background-color: var(--bgYellow);
+        color: var(--btnFontColor);
+    }
+
+    .detail_btn:hover:after {
+        content: " - UIUX💻";
+    }
+}
+
+
+@media only screen and (min-width: 1080px) {
+    .detail_content_wrap {
+        width: 1200px;
+    }
+}

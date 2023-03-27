@@ -6,8 +6,8 @@ $paru = new Project([
     "title" => "Accessories Online Shop",
     "subject" => "UI/UX Study Case",
     "image" => "paru_cover.jpg",
-    "alt" => "Accessories online shop in UIUX mobile and desktop design"
-    // "link" => ""
+    "alt" => "Accessories online shop in UIUX mobile and desktop design",
+    "link" => "details_uiux_pages.php"
 ]);
 
 $hisani = new Project([
