@@ -30,6 +30,7 @@
     margin: 0 auto;
     line-height: 1.5;
     font-weight: 400;
+    outline: 1px solid red
 }
 
 body {
