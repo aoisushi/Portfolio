@@ -13,30 +13,11 @@
     <link rel="stylesheet" href="styles/main.css"/>
   </head>
   <body>
-    <header>
-        <div class="container">
-            <div class="site-header__wrapper is-flex align_center text_align">
-                <div class="site-header__logo">
-                    <a href="index.html"><img src="images/logo.svg" alt="A logo of Kylie's, it's her face"></a>
-                </div>
-                <div class="site-header__menu-icon">
-                    <a href="#" class="is-menu-toggle"><img class="is-menu-icon" src="images/menu.svg" alt="" width="45"></a>
-                </div>
-                <nav class="site-header__menu" data-open="0">
-                    <a href="#" class="close-btn"><img src="images/close.svg" alt="close button" width="50"></a>
-                    <ul class="nav_menu_ul is-flex">
-                        <li><a class="nav_menu_a" href="about.html">About</a></li>
-                        <li><a href="UIUX_discipline.html">UI/UX</a></li>
-                        <li><a href="branding.html">Branding</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </header>
+    <?php require('partical/global/header.php'); ?>
   <main>
     <!-- Heading of the artifact -->
-    <section class="details_heading is-flex justi_cen text_align">
-        <div>
+    <section class="c4choco_details">
+        <div class="details_heading text_align justi_cen">
             <h1>c4choco</h1>
             <h4>Illustration Branding</h4>
             <p>Personal Brand</p>
@@ -79,6 +60,7 @@
                         <li>This is my personal drawing account established in early 2020 on Instagram. This brand aims to share the funny daily life stories of mine and with my bunnies. </li>
                     </ul>
                 </div>
+                <a href="http://instargram.com/c4choco"><img style="margin: 10px 0;" src="images/insta.svg" alt="" width="30"></a>
             </div>
         </div>
     </section>
@@ -88,11 +70,11 @@
     </div>
     <!-- Second Section: Introduction about c4choco -->
     <section class="art_sections">
-        <div class="art_space">
+        <div class="intro_space">
             <h3>What is c4choco?</h3>
             <p>C4choco is an illustration brand that I started in 2020 during the pandemic. I started this drawing account because I want to record my daily life with my bunnies Choco and Creami. The brand name c4choco (c for choco) means “everything about Choco".</p>
         </div>
-        <div class="art_space">
+        <div class="intro_space">
             <h3>Brand Story</h3>
             <p>C4choco is a brand run by a professional rabbit-owner. The artwork from C4choco is mostly describing interesting daily life stories about interacting with bunnies, sharing love with each other. In my drawings, I want to contain a positive message of how fun it would be if you’re having a bunny as a pet.</p>
         </div>
@@ -128,11 +110,11 @@
     <section class="art_sections">
         <div class="is-grid">
             <!-- color palette picture -->
-            <div class="c4_color col-12-sm col-6-md col-4-lg">
+            <div class="c4_color col-12-sm col-6-md col-6-lg">
                 <img src="images/c4_color.png" alt="main color palette of c4choco">
             </div>
             <!-- color palette content -->
-            <div class="c4_color_content bg_yel col-12-sm col-6-md col-4-lg">
+            <div class="c4_color_content bg_yel col-12-sm col-6-md col-6-lg">
                 <h3>Color Palette</h3>
                 <p>I usually use warm color tone on my drawings because base on my topic, I want to bring out some message about caring, love and relationship. The color chosen are having some similarities to my personal branding and c4choco. Because the personal branding idea is come from c4choco. </p>
             </div>
@@ -162,29 +144,9 @@
             <p class="text_align">Artworks of c4choco</p>
             <button class="next-btn"><img src="images/right.svg"></button>
         </div>
-
-
-        <!-- <div class="is-flex c4_art_collection">
-            <img src="images/c4_coffee.jpg" alt="">
-            <img src="images/c4_coffeeshop.jpg" alt="">
-            <img src="images/" alt="">
-        </div>
-        <div class="is-flex align_center justi_cen">
-            <img src="images/left.svg" alt="" width="45">
-            <p class="text_align">Coffee Choco Collection</p>
-            <img src="images/right.svg" alt="" width="45">
-        </div> -->
     </section>
     <script src="scripts/script.js"></script>
     </main>
-    <footer>
-        <div class="footer_sm is-flex justi_cen">
-            <a href="https://www.instagram.com/kylie_aoi/" title="Find me on Instagram" target="_blank"><img class="#EBB2B2" src="images/insta.svg" alt="Instagram Icon"></a>
-            <a href="#" title="Find me on BeHance" target="_blank"><img src="images/behance.svg" alt="BeHance Icon"></a>
-            <a href="#" title="Find me on LinkedIn" target="_blank"><img src="images/linkedin.svg" alt="LinkedIn Icon"></a>
-            <a href="#" title="Contact me with Email" target="_blank"><img src="images/mail.svg" alt="Email Icon"></a>
-        </div>
-        <p>All Design and Hand Code by Kylie Chan 2023 &copy;</p>
-    </footer>
+    <?php require('partical/global/footer.php'); ?>
 </body>
 </html>

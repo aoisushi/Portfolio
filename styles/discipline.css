@@ -1,0 +1,69 @@
+/* ============= Discipline ============= */
+.disci_container_wrap {
+    display: grid;
+}
+
+.disci_heading {
+    padding-bottom: 3.4375rem;
+}
+
+.disci_container {
+    width: fit-content;
+    margin-bottom: 2.0625rem;
+    grid-column: auto / span 12;
+}
+
+.disci_container img {
+    width: 21.875rem;
+    height: 14.5rem;
+    border-radius: 2.1875rem;
+    margin-bottom: 2.0625rem;
+    object-fit: cover;
+}
+
+.disci_content {
+    justify-content: center;
+    display: grid;
+    line-height: 1.5;
+}
+
+
+
+/* =======================================
+                Media Query 
+   =======================================*/
+
+@media only screen and (min-width: 834px) {
+
+    .disci_container img {
+        width: 37.5rem;
+        height: 22rem;
+    }
+
+}
+
+
+@media only screen and (min-width: 1080px) {
+
+    .disci_container {
+        display: grid;
+        grid-template-columns: repeat(12 fr1);
+        gap: 2rem;
+        text-align: unset;
+    }
+
+    .img_left {
+        grid-column: auto / span 6;
+    }
+
+    .img_left img {
+        width: 40.625rem;
+        height: 25.125rem;
+    }
+
+    .disci_content {
+        grid-column: 8 / span 3;
+        margin-left: 3.125rem;
+    }
+
+}

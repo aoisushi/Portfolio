@@ -1,3 +1,9 @@
+@import url(../styles/header.css);
+@import url(../styles/home.css);
+@import url(../styles/about.css);
+@import url(../styles/discipline.css);
+@import url(../styles/details.css);
+
 /* ============= Root =============  */
 :root {
     --heading: 'Lilita One', cursive;
@@ -100,101 +106,6 @@ section {
 .col-12-sm { grid-column: span 12; }
 
 
-/* ============= Header & Footer ============= */
-header, footer {
-     color: var(--fontColorOnHeader);
-}
-
-header {
-    font-size: 1rem;
-}
-
-/* Header + first section wrapper */
-.section_wrap {
-    background-color: var(--bgYellow);
-    width: auto;
-    height: 100vh;
-    margin: auto 0;
-}
-
-/* Header */
-.site-header__wrapper {
-    max-width: 90%;
-    height: 6rem;
-    margin: 0 auto;
-    padding: 0 1rem;
-    justify-content: space-between;
-}
-
-/*  header - logo */
-.site-header__logo img {
-    position: relative;
-    width: 3.125rem;
-}
-
-/* nav menu */
-.site-header__menu {
-    overflow: hidden;
-    position: absolute;
-    padding: 0 1rem;
-    display: none;
-    z-index: 11;
-}
-
-.site-header__menu.active {
-    display: block;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: var(--bgYellow);
-}
-
-.nav_menu_ul {
-   display: block;
-   margin-top: 150px;
-}
-
-/* menu items  */
-.nav_menu_ul li {
-    margin: 50px 0;
-    font-size: 28px;
-}
-
-/* header - hamburger icon */
-.site-header__menu-icon {
-    display: block;
-    cursor: pointer;
-}
-
-.site-header__menu a {
-    color: var(--fontColorOnHeader);
-}
-
-/* header - close btn */
-.close-btn {
-    display: flex;
-    justify-content: end;
-    margin: 30px;
-}
-
-/*  Footer  */
-Footer {
-    width: auto;
-    height: 10.563rem;
-    font-size: 0.9rem;
-    text-align: center;
-}
-
-.footer_sm {
-    padding: 2rem;
-    gap: 0.7rem;
-}
-
-.footer_sm img {
-    width: 1.5rem;
-}
 /* ============= global component ============= */
 /* button */
 .btn {
@@ -209,294 +120,8 @@ Footer {
 /* dividing line */
 .div_3dots {
     width: 6.25rem;
-    margin: 33px;
+    margin: 4rem 0;
 }
-
-/* ============= Home Page ============= */
-
-/* Hero Section */
-.home_wrap {
-    margin: 0.625rem 0;
-}
-
-.home_wrap_text {
-    margin: auto;
-    width: fit-content;
-    padding-top: 80px;
-    /* position: relative; */
-}
-
-.home_wrap_text h1 {
-    font-size: 3.4375rem;
-}
-
-.home_wrap_text p {
-    font-size: 1.375rem;
-}
-
-.home_wrap .is-blue {
-    color: var(--blue);
-}
-
-.home_wrap img {
-    width: 37.5rem;
-    object-fit: cover;
-}
-
-/* Work */
-.homepage_work {
-    margin: 0 auto 4rem;
-}
-
-.homepage_work_wrap {
-    margin: 0 auto;
-    width: fit-content;
-}
-
-.home_work_h2 {
-    padding: 4.0625rem;
-}
-
-.home_works img {
-    width: 21.875rem;
-    height: 20.1875rem;
-    object-fit: cover;
-    border-radius: 15%;
-}
-
-.home_content {
-    padding-top: 1rem;
-    padding-bottom: 2rem;
-    line-height: 1.5;
-}
-
-/* ============= About ============= */
-/* Hero section */
-.about_hero_wrap {
-    display: grid;
-}
-
-.about_hero_photo  {
-    background-image: url(../images/about_me.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 30%;
-    width: 20.6875rem;
-    height: 20.6875rem;
-    margin: 5.5rem 0;
-}
-
-.about_hero_photo:hover {
-    background-image: url(../images/kylie_photo.JPG);
-    object-fit: cover;
-    transition: background-image 0.2s ease-in-out;
-}
-
-.about_hero_content {
-    width: 28.125rem;
-    line-height: 1.5;
-}
-
-/* My values */
-.aboutMe h2 {
-    margin: 2.0625rem;
-}
-
-.values {
-    margin: auto;
-}
-
-.values_h4 {
-    padding: 1.5rem;
-    border-radius: 3.125rem;
-    width: 18.125rem;
-}
-
-.values_p {
-    padding: 2.75rem; 
-    border-radius: 1.6875rem;
-    width: 18.125rem;
-    height: 15.625rem;
-    line-height: 1.5;
-}
-
-.bg_yel {background-color: #FCF6D5;}
-.bg_blue {background-color: #D4DEE3;}
-.bg_pink {background-color: #F1D5D5;}
-
-/* Skills */
-
-.about_spacing {
-    margin: 33px 0;
-}
-
-.circle {
-    border-radius: 50%;
-    width: 17.1875rem;
-    height: 17.1875rem;
-}
-
-.skills_scp {
-    display: flex;
-    justify-content: center;
-}
-
-.skills_item {
-    display: grid;
-    justify-content: center;
-    align-content: center;
-}
-
-.skills_item li {
-    margin-bottom: 0.9375rem;
-}
-
-/* contact Me */
-.contactMe_container {
-    text-align: center;
-}
-
-.contactMe_container img {
-    width: 13.75rem;
-}
-
-/* ============= Discipline ============= */
-
-.disci_container_wrap {
-    display: grid;
-}
-
-.disci_heading {
-    padding-bottom: 3.4375rem;
-}
-
-.disci_container {
-    width: fit-content;
-    margin-bottom: 2.0625rem;
-    grid-column: auto / span 12;
-}
-
-.disci_container img {
-    width: 21.875rem;
-    height: 14.5rem;
-    border-radius: 2.1875rem;
-    margin-bottom: 2.0625rem;
-    object-fit: cover;
-}
-
-.disci_content {
-    justify-content: center;
-    display: grid;
-    line-height: 1.5;
-}
-
-/* ============= Artifact_details page_c4choco ============= */
-.art_sections {
-    /* top | right | bottom | left */
-    padding: 2.9375rem 3.4375rem 4.375rem 3.4375rem ;
-}
-
-.artifact-overview {
-    position: relative;
-}
-
-.artifact-overview::before {
-    content: '';
-    width: 50px;
-    height: 50px;
-    background-image: url('../images/logo.svg');
-    background-repeat: no-repeat;
-    position: absolute;
-    left: 50%;
-    transform: translate(-25px, -25px);
-    top: 0;
-}
-
-.c4_arti_logo {
-    width: 2.75rem;
-}
-
-.c4_choco_creami {
-    width: 9.5rem;
-    height: 9.5rem;
-    background-color: #92adb8;
-    border-radius: 50%;
-}
-
-.top_content_intro, .art_space {
-    margin-top: 2rem;
-}
-
-.c4_logo {
-    width: 18.75rem;
-}
-
-.c4_characters img {
-    width: 18.75rem;
-}
-
-.characters {
-    width: 390px;
-    margin: auto;
-    line-height: 1.8;
-}
-
-.characters h4 {
-    font-family: var(--heading);
-    font-weight: 800;
-}
-
-.characters h4, .characters p {
-    margin-top: 15px;
-}
-
-.c4_color, .c4_color_content {
-    margin: auto;
-}
-
-
-.c4_color img {
-    width: 21.875rem;
-}
-
-.c4_color_content {
-    width: 21.875rem;
-    padding: 3.125rem;
-    border-radius: 3.75rem;
-    line-height: 1.6;
-}
-
-.c4_art_container {
-    margin: auto;
-    height: auto;
-    overflow: hidden;
-    overflow-x: hidden;
-    scroll-behavior: smooth;
-}
-
-.c4_art_container img {
-    width: 18.75rem;
-    height: 18.75rem;
-    margin: 0 1.25rem;
-    border-radius: 1.875rem;
-}
-
-/* btn */
-.pre-btn,
-.next-btn {
-  border: none;
-  cursor: pointer;
-  background-color: #fff;
-}
-
-.pre-btn img,
-.next-btn img {
-    width: 2.1875rem;
-    height: auto;
-}
-
-
 
 /* =======================================
                 Media Query 
@@ -533,115 +158,33 @@ Footer {
     h6, .h6 { font-size: 1rem }
 
     /* Header */
+
     header {
         font-size: 1.25rem;
     }
     
     /* Btn */
+
     .btn {
         border-radius: 10.4375rem;
         padding: 1.25rem 4.375rem;
         font-size: 1.125rem;
         
     }
-    
     /* Btn Hover  */
+
     .btn:hover {
         border:  2px solid var(--btnFontColor);
         background-color: yellow;
-        /* I need to review the animation for the hover!!! */
     }
-
-    /* ==== Homepage ==== */
-    /* Hero section */
-    .home_wrap {
-        width: 80%;
-        display: flex;
-        margin: 0 auto;
-    }
-
-    .home_wrap_text {
-        flex-basis: 70%;
-    }
-
-    .home_wrap_text h1 {
-        font-size: 4rem;
-    }
-
-    .home_wrap_text p {
-        font-size: 1.875rem;
-    }
-
-    .home_wrap_img {
-        flex-basis: 30%;
-    }
-
-    .home_wrap img {
-        width: 40.625rem;
-        grid-column: 9 / span 2;
-    }
-
-    .homepage_work_wrap {
-        margin: 0 auto;
-        width: fit-content;
-    }
-
-    
-    /* ==== About ==== */
-    .about_hero_wrap {
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-    }
-
-    .about_hero_content {
-        width: 25rem;
-        line-height: 1.5;
-    }
-
-    .about_hero_content h1 {
-        font-size: 3rem;
-    }
-
-    .skills_wrap {
-        display: grid;
-        grid-template-columns: repeat(12, 1fr);
-        gap: 1rem;
-    }
-
-    
-    /* ==== Discipline Pages ==== */
-    /* .disci_container {
-        text-align: center;
-    } */
-
-    .disci_container img {
-        width: 37.5rem;
-        height: 22rem;
-    }
-
-    /* ==== Artifact_details page_c4choco ==== */
-    .c4_choco_creami {
-        width: 15.625rem;
-        height: 15.625rem;
-    }
-
-    .c4_color {
-    grid-column: 4;
-    }
-
-    .characters {
-        width: 300px;
-    }
-    
 
 } /* Tablet size end here*/
 
 /*  ========= Desktop Size =========  */
 @media only screen and (min-width: 1080px) {
-/* body {
-    background-color: rgb(234, 150, 89);
-} */
+body {
+    font-size: 18px;
+}
 
 /* Layout */
 .col-1-lg { grid-column: span 1; }
@@ -657,88 +200,4 @@ Footer {
 .col-11-lg { grid-column: span 11; }
 .col-12-lg { grid-column: span 12; }
 
-/* ==== Header ==== */
-
-.site-header__menu-icon img {
-    display: none;
-}
-
-.site-header__menu {
-    display: block;
-    height: auto !important;
-    position: static;
-    width: auto;
-    top: unset ;
-    left: unset;
-    padding: unset;  
-}
-
-.site-header__menu ul {
-    border-radius: unset;
-    background-color: unset;
-    display: flex;
-    gap: 2rem;
-    margin-top: 0;
-}
-
-.site-header__menu a {
-    font-size: 1.375rem;
-}
-
-.site-header__menu a:hover {
-    text-decoration: underline;
-    transition: 0.8s ease-in-out;
-}
-
-.close-btn {
-    display: none;
-}
-/* ==== Homepage ==== */
-
-
-/* ==== About ==== */
-.about_hero_wrap {
-    width: 62.5rem;
-    margin: auto;
-}
-
-/* ==== Discipline Pages ==== */
-.disci_container {
-    display: grid;
-    grid-template-columns: repeat(12 fr1);
-    gap: 2rem;
-    text-align: unset;
-}
-
-.img_left {
-    grid-column: auto / span 6;
-}
-
-.img_left img {
-    width: 40.625rem;
-    height: 25.125rem;
-}
-
-.disci_content {
-    grid-column: 8 / span 3;
-    margin-left: 3.125rem;
-}
-
-/* ==== Artifact_details page_c4choco ==== */
-.top_container {
-    display: flex;
-}
-
-.arti_hero_bg, .top_content {
-    flex-basis: 50%;
-}
-
-.top_content {
-    line-height: 2.0;
-    margin: auto;
-}
-
-.c4_color {
-    grid-column: 4;
-}
 } /* Desktop Size End */

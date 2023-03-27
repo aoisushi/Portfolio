@@ -14,40 +14,23 @@
 <body>
     <div class="wrapper">
         <div class="section_wrap">
-            <header>
-                <div class="container">
-                    <div class="site-header__wrapper is-flex align_center text_align">
-                        <div class="site-header__logo">
-                            <a href="index.html"><img src="images/logo.svg" alt="A logo of Kylie's, it's her face"></a>
-                        </div>
-                        <div class="site-header__menu-icon">
-                            <a href="#" class="is-menu-toggle"><img class="is-menu-icon" src="images/menu.svg" alt="" width="45"></a>
-                        </div>
-                        <nav class="site-header__menu" data-open="0">
-                            <a href="#" class="close-btn"><img src="images/close.svg" alt="close button" width="50"></a>
-                            <ul class="nav_menu_ul is-flex">
-                                <li><a class="nav_menu_a" href="about.html">About</a></li>
-                                <li><a href="UIUX_discipline.html">UI/UX</a></li>
-                                <li><a href="branding.html">Branding</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-            </header>
+            <?php require('partical/global/header.php'); ?> 
             <main>
                 <!-- About Me -->
                 <section class="aboutMe">
-                    <div class="about_hero_wrap justi_cen">
+                    <div class="about_hero_wrap">
                         <div class="is-flex justi_cen">
-                            <div class="about_hero_photo"></div>
+                            <div class="about_hero_container">
+                                <div class="about_hero_photo"></div>
+                            </div>
                         </div>
                         <div class="about_hero_content">
                             <h1>About Kylie💛🦁</h1>
-                            <p style="line-height: 1.6;">My name is Kylie, I’m a UIUX designer and Illustrator who originally comes from Hong Kong. I'm currently studying New Media and Web Development at BCIT. I’m looking forward to working as a UIUX designer in Canada. </p>
+                            <p>My name is Kylie, I’m a UIUX designer and Illustrator who originally comes from Hong Kong. I'm currently studying New Media and Web Development at BCIT. I’m looking forward to working as a UIUX designer in Canada. </p>
                         </div>
                      </div>
                 </section>
-            </div>
+        </div>
                 <!-- My vlaue -->
                 <section class="myValue">
                     <h2 class="is-flex justi_cen about_spacing">✨My Values</h2>
@@ -82,7 +65,7 @@
                                     <li>💼 Persona</li>
                                     <li>💼 User Testing</li>
                                     <li>💼 App Design</li>
-                                    <li>💼 Website Design</li>
+                                    <li>💼 Web Design</li>
                                 </ul>
                             </div>
                         </div>
@@ -112,27 +95,32 @@
                     </div>
                 </div>
                 </section>
+                <!-- <section>
+                    <div class="text_aglin">
+                        <h2>You can Talk with me in...</h2>
+                            <div class="is-flex">
+                                <button class="btn">Cantonese</button>
+                                <button class="btn">Mandarin</button>
+                                <button class="btn">Japanese</button>
+                                <button class="btn">English</button>    
+                            </div>
+                    </div>
+                </section> -->
                 <!-- Contact Me -->
                 <section class="contactMe">
-                    <div class="contactMe_container about_spacing">
-                        <img src="images/personal-logo-refine-03.png" alt="second logo for Kylie">
-                        <h4>Let's work together</h4>
-                        <p>Get in touch!</p>
-                        <button class="btn"><a href="#">Email Me</a></button>
-                        <button class="btn"><a href="#">Linkedin</a></button>
+                    <div class="contactMe_container about_spacing text_align">
+                        <img class="contant_image" src="images/personal-logo-refine-03.png" alt="Kylie's circle logo">
+                        <div class="contact_content">
+                            <h3>Keep In Touch</h3>
+                            <p s>Let's work together</p>
+                            <a class="btn" href="mailto:kylieaoichan@gmal.com">E-mail Me</a>
+                            <a class="btn" href="https://www.linkedin.com/in/kyliechan731/">LinkedIn</a>
+                        </div>
                     </div>
                 </section>
                 <script src="scripts/script.js"></script>
             </main>
-        <footer>
-            <div class="footer_sm is-flex justi_cen">
-                <a href="#" title="Find me on Instagram" target="_blank"><img class="#EBB2B2" src="images/insta.svg" alt="Instagram Icon"></a>
-                <a href="#" title="Find me on BeHance" target="_blank"><img src="images/behance.svg" alt="BeHance Icon"></a>
-                <a href="#" title="Find me on LinkedIn" target="_blank"><img src="images/linkedin.svg" alt="LinkedIn Icon"></a>
-                <a href="#" title="Contact me with Email" target="_blank"><img src="images/mail.svg" alt="Email Icon"></a>
-            </div>
-            <p>All Design and Hand Code by Kylie Chan 2023 &copy;</p>
-        </footer>
+        <?php require('partical/global/footer.php') ?>
     </div>
 </body>
 </html>
