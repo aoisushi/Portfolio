@@ -31,8 +31,9 @@ include('data/details_works.php');
                 <section class="hero_section">
                     <div class="home_wrap">
                         <div class="home_wrap_text">
-                            <h1>Hello!I'm Kylie</h1>
-                            <p class="is-blue">Be Creative with me!</p>
+                            <h1>Hello! I'm Kylie</h1>
+                            <h4 class="is-blue">Be Creative with me!</h4>
+                            <p>I'm a UIUX designer, Front-end developer and Illustrator</p>
                         </div>
                         <div class="home_hi text_align">
                             <img src="images/home_hi.png" alt="A drawing of Kylie saying hi on homepage">

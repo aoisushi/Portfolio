@@ -2,28 +2,23 @@
 
 /* Hero Section */
 .home_wrap {
-    margin: 0.625rem 0;
+    margin: auto;
+    display: table;
 }
 
 .home_wrap_text {
-    margin: auto;
-    width: fit-content;
-    padding-top: 50px;
-    /* position: relative; */
+    margin: 1.5625rem;
+    padding-top: 2.0625rem;
+    
 }
 
 .home_wrap_text h1 {
     font-size: 3rem;
 }
 
-.home_wrap_text p {
-    font-size: 1.375rem;
-}
-
 .home_wrap .is-blue {
     color: var(--blue);
 }
-
 
 .home_hi img {
     width: 23.5625rem;
@@ -44,14 +39,13 @@
 }
 
 .home_works img {
-    width: 21.875rem;
-    height: 20.1875rem;
+    width: 22.5625rem;
+    height: 18.125rem;
     object-fit: cover;
-    border-radius: 15%;
 }
 
 .home_content {
-    padding-top: 1rem;
+    padding-top: 0.7rem;
     padding-bottom: 2rem;
     line-height: 1.5;
 }
@@ -61,39 +55,53 @@
                 Media Query 
    =======================================*/
 
-@media only screen and (min-width: 820px) {
+@media only screen and (min-width: 834px) {
 
     /* Hero section */
     .home_wrap {
         width: 80%;
         display: flex;
-        margin: 0 auto;
+        margin-top: 2.75rem;
     }
 
-    .home_wrap_text {
-        flex-basis: 70%;
-    }
-
-    .home_wrap_text h1 {
-        font-size: 4rem;
-    }
-
-    .home_wrap_text p {
-        font-size: 1.875rem;
+     .home_wrap_text {
+        flex-basis: 50%;
     }
 
     .home_hi {
-        flex-basis: 30%;
+        flex-basis: 50%;
+    }
+
+    .home_wrap_text h1 {
+        font-size: 3.2rem;
+        margin-top: 0.625rem;
+    }
+
+    .home_wrap_text p {
+        font-size: 1.375rem;
     }
 
     .home_hi img {
         width: 40.625rem;
-        grid-column: 9 / span 2;
     }
 
     .homepage_work_wrap {
         margin: 0 auto;
         width: fit-content;
+    }
+
+    .home_works img {
+    width: 26.6875rem;
+    height: 22.375rem;
+    
+}
+
+}
+
+@media only screen and (min-width: 1080px) {
+    .home_wrap_text h1 {
+        font-size: 4rem;
+        margin-top: 3.9375rem;
     }
 
 }

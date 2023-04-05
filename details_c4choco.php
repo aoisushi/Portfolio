@@ -83,26 +83,26 @@
         </div>
     </section>
     <!-- Third Section: Characters -->
-    <section class="art_sections">
+    <section class="art_sections text_align">
         <h3>Who is Choco? Is there any other characters?</h3>
-        <div class="is-grid text_align art_space">
+        <div class="is-grid art_space">
             <div class="c4_characters col-12-sm col-6-md col-4-lg">
-                <img src="images/characters_suihi.png" alt="">
-                <div class="characters art_space">
+                <img src="images/characters_suihi.png" alt="Suihi's photo in introduction of c4choco's characters page">
+                <div class="characters">
                     <h4>Suihi</h4>
                     <p>Suihi is the owner, taking care of their life everyday. She sometimes can hear some words from Choco and Creami, that makes their relationship more closer.</p>
                 </div>
             </div>
             <div class="c4_characters col-12-sm col-6-md col-4-lg">
-                <img src="images/characters_choco.png" alt="">
-                <div class="characters art_space">
+                <img src="images/characters_choco.png" alt="Choco's photo in introduction of c4choco's characters page">
+                <div class="characters">
                     <h4>Choco</h4>
                     <p>Choco is a grey and white color bunny who can understand human language. She is a smart rabbit and always looking after her sister.</p>
                 </div>
             </div>
             <div class="c4_characters col-12-sm col-6-md col-4-lg">
-                <img src="images/characters_creami.png" alt="">
-                <div class="characters art_space">
+                <img src="images/characters_creami.png" alt="Creami's photo in introduction of c4choco's characters page">
+                <div class="characters">
                     <h4>Creami</h4>
                     <p>Creami, who has a beautiful pattern with white and grey scolor in her head and back.</p>
                 </div>
@@ -111,15 +111,17 @@
     </section>
     <!-- Fourth Section: Color Palette -->
     <section class="art_sections">
-        <div class="is-grid">
+        <div class="c4_container is-grid">
             <!-- color palette picture -->
-            <div class="c4_color col-12-sm col-6-md col-6-lg">
+            <div class="c4_color col-12-sm col-12-md col-5-lg"> 
                 <img src="images/c4_color.png" alt="main color palette of c4choco">
             </div>
             <!-- color palette content -->
-            <div class="c4_color_content bg_yel col-12-sm col-6-md col-6-lg">
-                <h3>Color Palette</h3>
-                <p>I usually use warm color tone on my drawings because base on my topic, I want to bring out some message about caring, love and relationship. The color chosen are having some similarities to my personal branding and c4choco. Because the personal branding idea is come from c4choco. </p>
+            <div class="col-12-sm col-12-md col-5-lg">
+                <div class="c4_color_content bg_yel">
+                    <h3>Color Palette</h3>
+                    <p>I usually use warm color tone on my drawings because base on my topic, I want to bring out some message about caring, love and relationship. The color chosen are having some similarities to my personal branding and c4choco. Because the personal branding idea is come from c4choco. </p>
+                </div>
             </div>
         </div>
     </section>
@@ -148,6 +150,11 @@
             <button class="next-btn"><img src="images/right.svg"></button>
         </div>
     </section>
+
+    <div class="text_align" style="margin-bottom: 33px;">
+            <a href="branding.php" class="detail_btn">Back to Projects</a>
+    </div>
+    
     <script src="scripts/script.js"></script>
     </main>
     <?php require('partical/global/footer.php'); ?>

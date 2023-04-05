@@ -63,7 +63,7 @@
                     <!-- first value -->
                     <div class="skills_wrap">
                         <div class="skills_container col-12-sm col-4-md col-4-lg">
-                            <h4 class="is-flex justi_cen about_spacing">💼 UIUX</h4>
+                            <h4 class="is-flex justi_cen text_align about_spacing">💼 <br>UIUX</h4>
                             <div class="skills_scp">
                                 <ul class="circle bg_pink skills_item">
                                     <li>💼 Persona</li>
@@ -75,7 +75,7 @@
                         </div>
                     <!-- second value -->
                     <div class="skills_container col-12-sm col-4-md col-4-lg">
-                        <h4 class="is-flex justi_cen about_spacing">💼 Marketing</h4>
+                        <h4 class="is-flex justi_cen text_align about_spacing">💼 <br>Marketing</h4>
                         <div class="skills_scp">
                             <ul class="circle bg_yel skills_item">
                                 <li>💼 Branding</li>
@@ -87,7 +87,7 @@
                     </div>
                     <!-- thrid value -->
                     <div class="skills_container col-12-sm col-4-md col-4-lg">
-                        <h4 class="is-flex justi_cen about_spacing">💼 Web Develop</h4>
+                        <h4 class="is-flex justi_cen text_align about_spacing">💼 <br>Web Development</h4>
                         <div class="skills_scp">
                             <ul class="circle bg_blue skills_item">
                                 <li>💼 HTML</li>

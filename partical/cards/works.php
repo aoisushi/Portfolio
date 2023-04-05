@@ -8,5 +8,5 @@
         <a href="<?php echo $Project->link; ?>"><h2><?php echo $Project->name; ?></h2></a>
         <a href="<?php echo $Project->link; ?>"><h4><?php echo $Project->title; ?></h4></a>
         <a href="<?php echo $Project->link; ?>"><p style="margin-bottom: 20px;"><?php echo $Project->subject; ?></p></a>
-    <button class="btn" style="margin-bottom: 20px;">View Full Project!!</button>
- </div>
+        <div style="margin-bottom: 55px; margin-top: 18px;"><a href="<?php echo $Project->link; ?>" class="btn">View Full Project!!</a></div>
+    </div>

@@ -12,9 +12,10 @@ header {
 .section_wrap {
    background-color: var(--bgYellow);
    width: 100vw;
-   height: 1000px;
+   height: 80%;
    margin: auto 0;
-   overflow-x: hidden;
+   /* overflow-x: hidden; */
+   overflow: hidden;
 }
 
 /* Header */
@@ -59,6 +60,10 @@ header {
   margin-top: 150px;
 }
 
+.site-header__menu a:active {
+   color: var(--pink);
+}
+
 /* menu items  */
 
 .nav_menu_ul li {
@@ -82,7 +87,7 @@ header {
 .close-btn {
    display: flex;
    justify-content: end;
-   margin: 30px;
+   margin: 1.875rem;
 }
 
 
@@ -105,7 +110,20 @@ Footer {
 }
 
 
+@media only screen and (min-width: 834px) {
+
+   .section_wrap {
+      height: 43.75rem;
+    }
+
+}
+
 @media only screen and (min-width: 1080px) {
+
+   .section_wrap {
+      height: 50rem;
+    }
+
     .site-header__menu-icon img {
         display: none;
     }
@@ -134,7 +152,8 @@ Footer {
     
     .site-header__menu a:hover {
         text-decoration: underline;
-        transition: 0.8s ease-in-out;
+        transition: 0.3s ease-in-out;
+        color: var(--pink);
     }
     
     .close-btn {

@@ -1,7 +1,7 @@
 
-
 .details_heading {
     padding-block: 3rem;
+    line-height: 1.8;
 }
 
 .art_sections {
@@ -46,7 +46,11 @@
     border-radius: 50%;
 }
 
-.top_content_intro, .art_space {
+.top_content_intro {
+    margin: 2rem 0;
+}
+
+.art_space {
     margin-top: 2rem;
 }
 
@@ -54,13 +58,16 @@
     width: 18.75rem;
 }
 
+.c4_characters {
+    margin: auto;
+}
+
 .c4_characters img {
-    width: 18.75rem;
+    width: 13rem;
 }
 
 .characters {
-    width: 390px;
-    margin: auto;
+    width: 11.75rem;
     line-height: 1.8;
 }
 
@@ -73,12 +80,18 @@
     margin-top: 15px;
 }
 
-.c4_color, .c4_color_content {
+.c4_container {
+    align-items: center;
     margin: auto;
 }
 
+.c4_color, .c4_color_content {
+    margin: 0 auto;
+}
 
 .c4_color img {
+    display: block;
+    margin: 0 auto;
     width: 21.875rem;
 }
 
@@ -108,7 +121,6 @@
 .pre-btn,
 .next-btn {
   border: none;
-  cursor: pointer;
   background-color: #fff;
 }
 
@@ -126,7 +138,7 @@
 @media only screen and (min-width: 834px) {    
 
         .intro_space {
-            width: 760px;
+            width: 47.5rem;
         }
     
         .c4_choco_creami {
@@ -135,16 +147,20 @@
         }
     
         .characters {
-            width: 300px;
+            width: 18.75rem;
         }
 
-    
+        .c4_color, .c4_color_content {
+            margin: auto;
+        }
+
     }
 
 @media only screen and (min-width: 1080px) {
 
     .top_container {
         display: flex;
+        margin: auto;
     }
 
     .arti_hero_bg, .top_content {

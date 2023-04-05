@@ -10,11 +10,11 @@
 .about_hero_container {
     position: relative;
     border-radius: 30%;
-    margin: 5.5rem 0;
+    margin: 1rem 0;
     overflow: hidden;
 }
 
-.about_hero_photo  {
+.about_hero_photo {
     background-image: url(../images/Canada_Life.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -42,9 +42,10 @@
 }
 
 .about_hero_content {
-    width: 28.125rem;
+    width: 18rem;
     line-height: 1.5;
     align-items: center;
+    margin: auto;
 }
 
 /* My values */
@@ -77,7 +78,7 @@
 /* Skills */
 
 .about_spacing {
-    margin: 33px 0;
+    margin: 2.0625rem 0;
 }
 
 .circle {
@@ -118,7 +119,7 @@
 }
 
 .contact_content p {
-    text-decoration: underline;
+    /* text-decoration: underline; */
     font-size: 2.0625rem;
     margin-bottom: 3.4375rem;
 }
@@ -133,11 +134,11 @@
         display: flex;
         align-items: center;
         justify-content: space-evenly;
+
     }
 
     .about_hero_content {
         width: 25rem;
-        line-height: 1.5;
     }
 
     .about_hero_content h1 {
@@ -145,7 +146,7 @@
     }
 
     .about_spacing {
-        margin: 55px 0;
+        margin: 3.4375rem 0;
     }
 
     .skills_wrap {
@@ -161,9 +162,18 @@
 }
 
 @media only screen and (min-width: 1080px) {
+
     .about_hero_wrap {
         width: 62.5rem;
         margin: auto;
+        padding-top: 6.25rem;
+    }
+    /* .about_hero_content {
+        width: 29rem;
+    } */
+
+    .about_hero_content p{
+        font-size: 1.25rem;
     }
 
     .values_h4 {

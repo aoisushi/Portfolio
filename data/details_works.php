@@ -7,7 +7,7 @@ $paru = new Project([
     "subject" => "UI/UX Study Case",
     "image" => "paru_cover.jpg",
     "alt" => "Accessories online shop in UIUX mobile and desktop design",
-    "link" => "details_uiux_pages.php"
+    "link" => "details_pa-ru.php"
 ]);
 
 $hisani = new Project([
@@ -15,7 +15,8 @@ $hisani = new Project([
     "title" => "Omakase Restaurant",
     "subject" => "Mobile App",
     "image" => "hisani_cover.jpg",
-    "alt" => "A design of mobile page for a omakase restaurant"
+    "alt" => "A design of mobile page for a omakase restaurant",
+    "link" => "details_hisani.php"
 ]);
 
 // Branding
@@ -24,7 +25,8 @@ $coBear = new Project([
     "title" => "Beverage Company",
     "subject" => "Digital Illustration",
     "image" => "coBear_cover.jpg",
-    "alt" => "A beverage company branding design"
+    "alt" => "A beverage company branding design",
+    "link" => "details_cobear.php"
 ]);
 
 $mooday = new Project([
@@ -32,7 +34,8 @@ $mooday = new Project([
     "title" => "Mood Tracker",
     "subject" => "App design",
     "image" => "mooday_cover.jpg",
-    "alt" => "A style gudie for an app design"
+    "alt" => "A style gudie for an app design",
+    "link" => "details_mooday.php"
 ]);
 
 $c4choco = new Project([
