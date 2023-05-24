@@ -1,69 +1,98 @@
-/* ============= Discipline ============= */
-.disci_container_wrap {
+
+.projects_container {
     display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 1rem;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 45px;
 }
 
-.disci_heading {
-    padding-bottom: 3.4375rem;
+/* Filter */
+.filter ul {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin: 33px 0;
 }
 
-.disci_container {
-    width: fit-content;
-    margin-bottom: 2.0625rem;
+.filter ul li {
+    background-color: var(--bgYellow);
+    padding: 5px 15px;
+    border-radius: 33px;
+    cursor: pointer;
+}
+
+.filter ul li.active {
+    background-color: var(--pink);
+    color: #fff;
+}
+
+.filter ul li:hover {
+    background-color: var(--bgPink);
+}
+
+
+/* Card */
+
+.cards {
+    width: 359px;
+    height: 415px;
+    border-radius: 26px;
+    border: 1px solid #D6DFED;
+    background-color: #FFFDEF;
     grid-column: auto / span 12;
+    margin: auto;
 }
 
-.disci_container img {
-    width: 21.875rem;
-    height: 14.5rem;
-    border-radius: 2.1875rem;
-    margin-bottom: 1.0625rem;
+.cards img {
+    width: 324px;
+    height: 222px;
+    border-radius: 26px;
+    position: relative;
+    top: 13px;
+    left: 18px;
     object-fit: cover;
 }
 
-.disci_content {
+.project_content {
+    padding: 24px 22px;
     justify-content: center;
-    display: grid;
     line-height: 1.5;
 }
 
+.project_content p {
+    margin-bottom: 12px;
+}
+
+/* Filter tags */
+.tags {
+    font-size: 14px;
+    padding: 3px 13px;
+    color: var(--btnFontColor);
+    background: #F1D5D5;
+    border: 1px solid #EAB3B3;
+    border-radius: 32px;
+}
 
 
 /* =======================================
                 Media Query 
    =======================================*/
 
-@media only screen and (min-width: 834px) {
+   @media only screen and (min-width: 834px){
+        .cards {
+            grid-column: auto / span 6;
+        }
 
-    .disci_container img {
-        width: 37.5rem;
-        height: 22rem;
+        .project_content h2, .project_content h4, .project_content p {
+            font-size: revert;
+        }
+   }
+   
+   
+   @media only screen and (min-width: 1080px){
+    .cards {
+        grid-column: auto / span 4;
     }
-
-}
-
-
-@media only screen and (min-width: 1080px) {
-
-    .disci_container {
-        display: grid;
-        grid-template-columns: repeat(12 fr1);
-        gap: 2rem;
-        text-align: unset;
-    }
-
-    .img_left {
-        grid-column: auto / span 6;
-    }
-
-    .img_left img {
-        width: 40.625rem;
-        height: 25.125rem;
-    }
-
-    .disci_content {
-        grid-column: 8 / span 3;
-        margin-left: 3.125rem;
-    }
-
-}
+   }

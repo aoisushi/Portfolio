@@ -7,17 +7,6 @@ header {
    font-size: 1rem;
 }
 
-/* Header + first section wrapper */
-
-.section_wrap {
-   background-color: var(--bgYellow);
-   width: 100vw;
-   height: 80%;
-   margin: auto 0;
-   /* overflow-x: hidden; */
-   overflow: hidden;
-}
-
 /* Header */
 
 .site-header__wrapper {
@@ -53,15 +42,13 @@ header {
    width: 100%;
    height: 100%;
    background-color: var(--bgYellow);
+   padding-top: 6.25rem;
+   transition:  0.3s;
 }
 
 .nav_menu_ul {
   display: block;
   margin-top: 150px;
-}
-
-.site-header__menu a:active {
-   color: var(--pink);
 }
 
 /* menu items  */
@@ -88,6 +75,43 @@ header {
    display: flex;
    justify-content: end;
    margin: 1.875rem;
+}
+
+
+/* hamburger icon */
+.hamburger {
+   display: block;
+   cursor: pointer;
+   position: relative;
+   z-index: 111;
+}
+
+.hamburger.active .bar:nth-child(2) {
+   opacity: 0;
+}
+.hamburger.active .bar:nth-child(1) {
+   transform: translateY(8px) rotate(45deg);
+}
+.hamburger.active .bar:nth-child(3) {
+   transform: translateY(-8px) rotate(-45deg);
+}
+
+.nav-item {
+   margin: 16px 0;
+}
+
+.nav-menu.active {
+   left: 0;
+}
+
+.bar {
+   display: block;
+   width: 25px;
+   height: 3px;
+   margin: 5px auto;
+   -webkit-transition: all 0.3s ease-in-out;
+   transition: all 0.3s ease-in-out;
+   background-color: var(--blue);
 }
 
 
@@ -158,5 +182,9 @@ Footer {
     
     .close-btn {
         display: none;
+    }
+
+    .hamburger {
+      display: none;
     }
 }

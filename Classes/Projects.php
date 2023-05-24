@@ -3,6 +3,7 @@
 // Discipline page
 class Project {
 
+    public $filter;
     public $name;
     public $title;
     public $subject;
@@ -10,8 +11,11 @@ class Project {
     public $alt;
     public $link;
 
+    
+
     public function __construct($props = []) {
 
+        $this->filter = $props['filter'] ?? null;
         $this->name = $props['name'] ?? null;
         $this->title = $props['title'] ?? null;
         $this->subject = $props['subject'] ?? null;
@@ -53,3 +57,4 @@ class Details {
         $this->live = $props['live'] ?? null;
     }
 }
+

@@ -2,25 +2,28 @@
 
 // UIUX
 $paru = new Project([
+    "filter" => "uiux",
     "name" => "Pa-ru",
     "title" => "Accessories Online Shop",
-    "subject" => "UI/UX Study Case",
+    "subject" => "UI/UX Website design",
     "image" => "paru_cover.jpg",
     "alt" => "Accessories online shop in UIUX mobile and desktop design",
-    "link" => "details_pa-ru.php"
+    "link" => "details_pa-ru.php",
 ]);
 
 $hisani = new Project([
+    "filter" => "uiux" . " " . "web",
     "name" => "Hisani",
     "title" => "Omakase Restaurant",
     "subject" => "Mobile App",
     "image" => "hisani_cover.jpg",
     "alt" => "A design of mobile page for a omakase restaurant",
-    "link" => "details_hisani.php"
+    "link" => "details_hisani.php",
 ]);
 
 // Branding
 $coBear = new Project([
+    "filter" => "branding",
     "name" => "Cobear",
     "title" => "Beverage Company",
     "subject" => "Digital Illustration",
@@ -30,6 +33,7 @@ $coBear = new Project([
 ]);
 
 $mooday = new Project([
+    "filter" => "branding",
     "name" => "Mooday",
     "title" => "Mood Tracker",
     "subject" => "App design",
@@ -39,6 +43,7 @@ $mooday = new Project([
 ]);
 
 $c4choco = new Project([
+    "filter" => "branding",
     "name" => "c4choco",
     "title" => "Illustration",
     "subject" => "Persional Brand",
@@ -48,9 +53,9 @@ $c4choco = new Project([
 ]);
 
 
-$home = [$paru, $hisani, $coBear];
-$uiux = [$paru, $hisani];
-$branding = [$coBear, $c4choco, $mooday];
-
+$home = [$paru, $hisani, $c4choco];
+// $uiux = [$paru, $hisani];
+// $branding = [$coBear, $c4choco, $mooday];
+$all = [$paru, $hisani, $coBear, $c4choco, $mooday];
 
 ?>

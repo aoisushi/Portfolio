@@ -3,10 +3,11 @@
 @import url(../styles/about.css);
 @import url(../styles/discipline.css);
 @import url(../styles/details.css);
-@import url(../styles/uiux_detail.css);
+@import url(../styles/uiux_detail.css); /* detail page base + c4choco page */
 @import url(../styles/uiux_hisani.css);
 @import url(../styles/branding_mooday.css);
 @import url(../styles/branding_cobear.css);
+
 
 /* ============= Root =============  */
 :root {
@@ -95,6 +96,7 @@ section {
 .align_center {align-items: center;}
 .justi_cen {justify-content: center;}
 
+
 /* gird - column */
 .col-1-sm { grid-column: span 1; }
 .col-2-sm { grid-column: span 2; }
@@ -117,53 +119,32 @@ section {
     color: var(--btnFontColor);
     border-color: var(--btnFontColor);
     border: 1px solid var(--btnFontColor);
-    border-radius: 10.4375rem;
-    padding: 0.75rem 3.4375rem;
+    border-radius: 2.0625rem;
+    padding: 15px 45px;
 }
 
 /* dividing line */
-.div_3dots {
+/* .div_3dots {
     width: 6.25rem;
     margin: 4rem 0;
-}
+} */
 
-.image_container {
-    position: relative;
-    border-radius: 4rem;
-    overflow: hidden;
-}
-
-.image_hover {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: var(--blue);
-    opacity: 0;
-}
-
-.image_container:hover .image_hover {
-    opacity: 0.5;
-}
-
-.hover_text {
-    color: #fff;
-    font-size: 1.4375rem;
-    text-align: center;
-    position: relative;
-    top: 10.75rem;
-}
 
 /* the little cat filter */
-.work_filter {
+
+/* .work_filter {
     color: var(--pink);
     border: 1px solid var(--pink);
     font-size: 0.75rem;
     border-radius: 4rem;
     padding: 0.3125rem 0.8125rem;
     margin: 0.3125rem 0.1875rem;
-}
+} */
+
+/* Color Background */
+.bg_yel {background-color: #FCF6D5;}
+.bg_blue {background-color: #D4DEE3;}
+.bg_pink {background-color: #F1D5D5;} 
 
 /* =======================================
                 Media Query 
@@ -225,6 +206,8 @@ section {
     .btn:hover:after {
         content: " ➡️ ";
     }
+
+
 
 } /* Tablet size end here*/
 

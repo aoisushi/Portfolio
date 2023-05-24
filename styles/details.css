@@ -102,34 +102,66 @@
     line-height: 1.6;
 }
 
-.c4_art_container {
+
+/* ==== Slider ==== */
+.slider_wrapper {
     margin: auto;
-    height: auto;
+    max-width: 1200px;
+    position: relative;
+}
+
+/* left and right button */
+.slider_wrapper ion-icon {
+    height: 33px;
+    width: 33px;
+    padding: 12px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 46px;
+    background: var(--pink);
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #ffffff;
+}
+
+.slider_wrapper ion-icon:first-child {
+    left: -23px;
+    display: none;
+}
+
+.slider_wrapper ion-icon:last-child {
+    right: -23px;
+}
+
+.slider_wrapper .carousel{
+    font-size: 0px;
+    cursor: pointer;
     overflow: hidden;
-    overflow-x: hidden;
+    white-space: nowrap;
     scroll-behavior: smooth;
 }
 
-.c4_art_container img {
-    width: 18.75rem;
-    height: 18.75rem;
-    margin: 0 1.25rem;
-    border-radius: 1.875rem;
+.carousel.dragging {
+    cursor: grab;
+    scroll-behavior: auto;
 }
 
-/* btn */
-.pre-btn,
-.next-btn {
-  border: none;
-  background-color: #fff;
+.carousel.dragging img {
+    pointer-events: none;
 }
 
-.pre-btn img,
-.next-btn img {
-    width: 2.1875rem;
-    height: auto;
+.carousel img {
+    height: 415px;
+    /* object-fit: cover; */
+    width: calc(100% / 1);
+    margin-right: 15px;
 }
 
+.carousel img:first-child{
+    margin-left: 0px;
+}
 
 /* =======================================
                 Media Query 
@@ -154,6 +186,10 @@
             margin: auto;
         }
 
+        .carousel img {
+            width: calc(100% / 2);
+        }
+
     }
 
 @media only screen and (min-width: 1080px) {
@@ -174,6 +210,10 @@
 
     .c4_color_content {
         width: 26.875rem;
+    }
+
+    .carousel img {
+        width: calc(100% / 3);
     }
 
 }

@@ -1,20 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Kylie Chan | UI/UX Designer</title>
-    <meta name="description" content="Hi, I'm Kylie Chan. I'm a UIUX designer and Front-end web developer.">
-    <meta name="author" content="Kylie Chan">
-    <meta property="og:title" content="Kylie Chan's Portfolio">
-    <meta property="og:url" content="http://kylieaoichan.com/">
-    <link rel="preconnect" href="https://fonts.googleapis.com"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Questrial&display=swap" rel="stylesheet"/>
-    <link rel="stylesheet" href="styles/reset.css"/>
-    <link rel="stylesheet" href="styles/main.css"/>
-  </head>
+<?php include('partical/global/head.php'); ?>
   <body>
     <?php require('partical/global/header.php'); ?>
   <main>
@@ -128,31 +114,29 @@
     <!-- Fifth Section: Art collection -->
     <section class="art_sections">
         <h3 class="text_align" style="margin-bottom: 33px;">Art Collections</h3>
-        <!-- Art Connection -->
-        <div class="c4_art_container">
-            <div class="is-flex">
-                <img src="images/c4_summer.jpg" alt="">
-                <img src="images/c4_fall.jpg" alt="">
-                <img src="images/c4_winter.jpg" alt="">
-                <img src="images/c4_coffee.jpg" alt="">
-                <img src="images/c4_coffeeshop.jpg" alt="">
-                <img src="images/c4_coffeebags.jpg" alt="">
-                <img src="images/c4_creami_play.png" alt="">
-                <img src="images/c4_gacya.jpg" alt="">
-                <img src="images/c4_newyr1.png" alt="">
-                <img src="images/c4_newyr2.png" alt="">
+
+        <!-- Art Connection Slider -->
+        <div class="slider_wrapper">
+            <ion-icon id="left" name="chevron-back-outline"></ion-icon>
+            <div class="carousel is-flex">
+                <img src="images/c4_summer.jpg" alt="A artwork of summer" draggable="false">
+                <img src="images/c4_fall.jpg" alt="A artwork of fall" draggable="false">
+                <img src="images/c4_winter.jpg" alt="A artwork of winter" draggable="false">
+                <img src="images/c4_coffee.jpg" alt="A artwork of Choco is making coffee" draggable="false">
+                <img src="images/c4_coffeeshop.jpg" alt="A artwork of Choco is owning a coffee shop" draggable="false">
+                <img src="images/c4_creami_play.png" alt="A artwork of Creami is playing in the garden" draggable="false">
+                <img src="images/c4_gacya.jpg" alt="A artwork of the work that I created before" draggable="false">
+                <img src="images/c4_newyr1.png" alt="A artwork of New Year post card" draggable="false">
+                <img src="images/c4_newyr2.png" alt="A artwork of New Year post card" draggable="false">
             </div>
-            <!-- button -->
+            <ion-icon id="right" name="chevron-forward-outline"></ion-icon>
         </div>
-        <div class="is-flex align_center justi_cen" style="margin-top: 33px;">
-            <button class="pre-btn"><img src="images/left.svg"></button>
-            <p class="text_align">Artworks of c4choco</p>
-            <button class="next-btn"><img src="images/right.svg"></button>
-        </div>
+    
+        <p></p>
     </section>
 
     <div class="text_align" style="margin-bottom: 33px;">
-            <a href="branding.php" class="detail_btn">Back to Projects</a>
+            <a href="project.php" class="detail_btn">Back to Projects</a>
     </div>
     
     <script src="scripts/script.js"></script>
