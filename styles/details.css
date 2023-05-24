@@ -50,12 +50,16 @@
     margin: 2rem 0;
 }
 
-.art_space {
+/* .art_space {
     margin-top: 2rem;
-}
+} */
 
 .c4_logo {
     width: 18.75rem;
+}
+
+.characters_section h3 {
+    margin: 15px;
 }
 
 .c4_characters {
@@ -71,9 +75,21 @@
     line-height: 1.8;
 }
 
-.characters h4 {
+.suihi_color, .choco_color, .creami_color {
     font-family: var(--heading);
     font-weight: 800;
+}
+
+.suihi_color {
+    color: var(--blue);
+}
+
+.choco_color {
+    color: var(--pink);
+}
+
+.creami_color {
+    color: var(--yellow);
 }
 
 .characters h4, .characters p {
@@ -92,7 +108,7 @@
 .c4_color img {
     display: block;
     margin: 0 auto;
-    width: 21.875rem;
+    width: 350px;
 }
 
 .c4_color_content {
@@ -106,7 +122,7 @@
 /* ==== Slider ==== */
 .slider_wrapper {
     margin: auto;
-    max-width: 1200px;
+    width: 360px;
     position: relative;
 }
 
@@ -153,8 +169,8 @@
 }
 
 .carousel img {
-    height: 415px;
-    /* object-fit: cover; */
+    height: 380px;
+    object-fit: cover;
     width: calc(100% / 1);
     margin-right: 15px;
 }
@@ -190,6 +206,10 @@
             width: calc(100% / 2);
         }
 
+        .slider_wrapper {
+            width: 800px;
+        }
+
     }
 
 @media only screen and (min-width: 1080px) {
@@ -214,6 +234,10 @@
 
     .carousel img {
         width: calc(100% / 3);
+    }
+
+    .slider_wrapper {
+        width: 1080px;
     }
 
 }

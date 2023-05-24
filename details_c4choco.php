@@ -58,7 +58,7 @@
         <img class="c4_logo" src="images/c4choco_logo.png" alt="A logo from c4choco">
     </div>
     <!-- Second Section: Introduction about c4choco -->
-    <section class="art_sections">
+    <section class="">
         <div class="intro_space">
             <h3>What is c4choco?</h3>
             <p>C4choco is an illustration brand that I started in 2020 during the pandemic. I started this drawing account because I want to record my daily life with my bunnies Choco and Creami. The brand name c4choco (c for choco) means “everything about Choco".</p>
@@ -69,34 +69,34 @@
         </div>
     </section>
     <!-- Third Section: Characters -->
-    <section class="art_sections text_align">
+    <section class="characters_section text_align">
         <h3>Who is Choco? Is there any other characters?</h3>
         <div class="is-grid art_space">
             <div class="c4_characters col-12-sm col-6-md col-4-lg">
                 <img src="images/characters_suihi.png" alt="Suihi's photo in introduction of c4choco's characters page">
                 <div class="characters">
-                    <h4>Suihi</h4>
+                    <h4 class="suihi_color">Suihi</h4>
                     <p>Suihi is the owner, taking care of their life everyday. She sometimes can hear some words from Choco and Creami, that makes their relationship more closer.</p>
                 </div>
             </div>
             <div class="c4_characters col-12-sm col-6-md col-4-lg">
                 <img src="images/characters_choco.png" alt="Choco's photo in introduction of c4choco's characters page">
                 <div class="characters">
-                    <h4>Choco</h4>
+                    <h4 class="choco_color">Choco</h4>
                     <p>Choco is a grey and white color bunny who can understand human language. She is a smart rabbit and always looking after her sister.</p>
                 </div>
             </div>
             <div class="c4_characters col-12-sm col-6-md col-4-lg">
                 <img src="images/characters_creami.png" alt="Creami's photo in introduction of c4choco's characters page">
                 <div class="characters">
-                    <h4>Creami</h4>
+                    <h4 class="creami_color">Creami</h4>
                     <p>Creami, who has a beautiful pattern with white and grey scolor in her head and back.</p>
                 </div>
             </div>
         </div>
     </section>
     <!-- Fourth Section: Color Palette -->
-    <section class="art_sections">
+    <section>
         <div class="c4_container is-grid">
             <!-- color palette picture -->
             <div class="c4_color col-12-sm col-12-md col-5-lg"> 
@@ -112,27 +112,28 @@
         </div>
     </section>
     <!-- Fifth Section: Art collection -->
-    <section class="art_sections">
-        <h3 class="text_align" style="margin-bottom: 33px;">Art Collections</h3>
+    <section>
+        <div>
+            <h3 class="text_align" style="margin: 33px 0;">Art Collections</h3>
 
-        <!-- Art Connection Slider -->
-        <div class="slider_wrapper">
-            <ion-icon id="left" name="chevron-back-outline"></ion-icon>
-            <div class="carousel is-flex">
-                <img src="images/c4_summer.jpg" alt="A artwork of summer" draggable="false">
-                <img src="images/c4_fall.jpg" alt="A artwork of fall" draggable="false">
-                <img src="images/c4_winter.jpg" alt="A artwork of winter" draggable="false">
-                <img src="images/c4_coffee.jpg" alt="A artwork of Choco is making coffee" draggable="false">
-                <img src="images/c4_coffeeshop.jpg" alt="A artwork of Choco is owning a coffee shop" draggable="false">
-                <img src="images/c4_creami_play.png" alt="A artwork of Creami is playing in the garden" draggable="false">
-                <img src="images/c4_gacya.jpg" alt="A artwork of the work that I created before" draggable="false">
-                <img src="images/c4_newyr1.png" alt="A artwork of New Year post card" draggable="false">
-                <img src="images/c4_newyr2.png" alt="A artwork of New Year post card" draggable="false">
+            <!-- Art Connection Slider -->
+            <div class="slider_wrapper">
+                <ion-icon id="left" name="chevron-back-outline"></ion-icon>
+                <div class="carousel is-flex">
+                    <img src="images/c4_summer.jpg" alt="A artwork of summer" draggable="false">
+                    <img src="images/c4_fall.jpg" alt="A artwork of fall" draggable="false">
+                    <img src="images/c4_winter.jpg" alt="A artwork of winter" draggable="false">
+                    <img src="images/c4_coffee.jpg" alt="A artwork of Choco is making coffee" draggable="false">
+                    <img src="images/c4_coffeeshop.jpg" alt="A artwork of Choco is owning a coffee shop" draggable="false">
+                    <img src="images/c4_creami_play.png" alt="A artwork of Creami is playing in the garden" draggable="false">
+                    <img src="images/c4_gacya.jpg" alt="A artwork of the work that I created before" draggable="false">
+                    <img src="images/c4_newyr1.png" alt="A artwork of New Year post card" draggable="false">
+                    <img src="images/c4_newyr2.png" alt="A artwork of New Year post card" draggable="false">
+                </div>
+                <ion-icon id="right" name="chevron-forward-outline"></ion-icon>
             </div>
-            <ion-icon id="right" name="chevron-forward-outline"></ion-icon>
         </div>
-    
-        <p></p>
+        
     </section>
 
     <div class="text_align" style="margin-bottom: 33px;">
