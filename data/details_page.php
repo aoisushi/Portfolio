@@ -5,9 +5,9 @@
 $paru_details = new Details ([
 
     // Top
-    "project_name" => "Paru",
+    "project_name" => "Pa-ru",
     "project_title" => "Accessories Online Shop",
-    "project_subject" => "UI/UX Study Case",
+    "project_subject" => "UI/UX Design",
 
     // Yellow section
     "image_url" => "pa-ru logo_blue.svg",
@@ -19,22 +19,42 @@ $paru_details = new Details ([
     "live" => "https://www.figma.com/proto/1JJv8blEPVenqEswEK0zWi/Pa-ru-app-prototype?page-id=59%3A258&node-id=124-2210&viewport=582%2C318%2C0.26&scaling=scale-down&starting-point-node-id=124%3A2210&show-proto-sidebar=1"
 ]);
 
+
+// Web Dev
 $hisani_details = new Details ([
 
     // Top
     "project_name" => "Hisani",
     "project_title" => "Omakase Restaurant",
-    "project_subject" => "Mobile App",
+    "project_subject" => "Mobile-first single-page website",
 
     // Yellow section
     "image_url" => "hisani_logo.svg",
     "alt" => "This is a logo for Hisani",
-    "role" => "UIUX designer" . "<br>" . "Coder",
+    "role" => "UIUX designer" . "<br>" . "Web Developer",
     "duration" => "15 hours",
     "tools" => "Figma" . "<br>" . "HTML" . "<br>" . "CSS" . "<br>" . "JavaScript",
     "introduction" => "The assignment goal is to understand how to code a one-page site with using CSS and JavaScript to code three different size of devices based on a prototype on Figma.",
-    "live" => "https://www.figma.com/proto/fPN9Kehrh8BFAOurVQtoiI/redesign-the-assignment-mobile-for-portfolio?page-id=510%3A580&node-id=510-1030&viewport=638%2C515%2C0.14&scaling=scale-down&starting-point-node-id=510%3A1030"
+    "live" => "https://aoisushi.github.io/hisani/"
 ]);
+
+$choffe_details = new Details ([
+
+    // Top
+    "project_name" => "Choffe",
+    "project_title" => "Coffee Shop",
+    "project_subject" => "Website Design and Development",
+
+    // Yellow section
+    "image_url" => "Choffe logo_verti.svg",
+    "alt" => "This is a logo for Hisani",
+    "role" => "UIUX designer" . "<br>" . "Web Developer",
+    "duration" => "20 hours",
+    "tools" => "Adobe Illustrator" . "<br>" . "Adobe Photoshop" . "<br>" ."Figma" . "<br>" . "HTML" . "<br>" . "Tailwind CSS" . "<br>" . "JavaScript",
+    "introduction" => "This project is to create a web page encompassing both design and development aspects. It aims to showcase skills in brand design and basic web development using Tailwind. ",
+    "live" => "https://aoisushi.github.io/choffe/dist/index.html"
+]);
+
 
 
 // Branding
@@ -60,7 +80,7 @@ $mooday_details = new Details ([
     // Top
     "project_name" => "Mooday",
     "project_title" => "Mood Tracker",
-    "project_subject" => "App design",
+    "project_subject" => "Style Guide for App design",
 
     // Yellow section
     "image_url" => "mooday_logo.svg",

@@ -12,7 +12,7 @@
                         <div class="is-flex justi_cen">
                             <div class="about_hero_container">
                                 <div class="about_hero_photo"></div>
-                                <p class="hoverme">👆🏻  hover me</p>
+                                <p class="hoverme">👆🏻  poke me</p>
                                 <div>
                                     <img class="hearts" src="images/hearts.svg" width="60">
                                     <!-- <img class="circles" src="images/circles.svg" width="50"> -->

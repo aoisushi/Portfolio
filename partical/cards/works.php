@@ -12,10 +12,7 @@
         <a href="<?php echo $Project->link; ?>"><p><?php echo $Project->subject; ?></p></a>
         <!-- tags -->
         <div>
-            <span class="tags">
-                Design
-            </span>
-            
+            <span class="tags">Design</span>
         </div>
     </div>
 </div>

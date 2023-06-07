@@ -12,7 +12,6 @@ class Project {
     public $link;
 
     
-
     public function __construct($props = []) {
 
         $this->filter = $props['filter'] ?? null;
@@ -58,3 +57,9 @@ class Details {
     }
 }
 
+// the filter tags
+// class tags {
+
+//     public $
+
+// }
