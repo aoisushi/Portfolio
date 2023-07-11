@@ -205,11 +205,11 @@
                     <p>After finishing the part of design, I passed it to <span><a style="text-decoration: underline; color: #EBB2B2;" href="https://jerrellustre.com/backend-projects/Jerrellustre-patchwork-ProjectLog.php">Jerrel</a></span> to develop the website.  </p>
                     <ul>
                         <li><h4>Languages</h4></li>
-                        <li>Tailwind</li>
-                        <li>PHP Laravel</li>
-                        <li>SQL & MySQL </li>
-                        <li>HTML</li>
-                        <li>Alpine.js</li>
+                        <li>🚀 Tailwind</li>
+                        <li>🚀 PHP Laravel</li>
+                        <li>🚀 SQL & MySQL </li>
+                        <li>🚀 HTML</li>
+                        <li>🚀 Alpine.js</li>
                     </ul>
                     <div style="margin-top: 33px;">
                         <a href="https://patchwork.jerrellustre.com/public/" class="detail_btn">View Live Page</a>

@@ -30,7 +30,7 @@ $patchwork_details = new Details ([
     // Yellow section
     "image_url" => "patchwork_patchwork_logo_round.svg",
     "alt" => "This is a logo for Patchwork",
-    "role" => "Kylie: UIUX designer", "Jerrel: Web Developer",
+    "role" => "Kylie: UIUX designer" . "<br>" . "Jerrel: Web Developer",
     "duration" => "25 hours",
     "tools" => "Figma",
     "introduction" => "The goal of this project is to design an alternative system of the learning hub for the peers at BCIT to overseeing their all the upcoming schedule of assignments and exams. ",
