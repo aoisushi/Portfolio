@@ -7,16 +7,34 @@ $paru_details = new Details ([
     // Top
     "project_name" => "Pa-ru",
     "project_title" => "Accessories Online Shop",
-    "project_subject" => "UI/UX Design",
+    "project_subject" => "UI/UX Design", 
 
     // Yellow section
     "image_url" => "pa-ru logo_blue.svg",
     "alt" => "This is a logo for Pa-ru",
     "role" => "UIUX designer",
-    "duration" => "36 hours for 2 projects",
-    "tools" => "Adobe XD" . "<br>" . "Figma",
+    "duration" => "12 hours",
+    "tools" => "Figma",
     "introduction" => "This project is to create an interactive prototype in Adobe XD and Figma covered in UIUX Strategy 1. The goal of this project is to understand how to create a functional and aesthetic interface in the UIUX aspect. ",
     "live" => "https://www.figma.com/proto/1JJv8blEPVenqEswEK0zWi/Pa-ru-app-prototype?page-id=59%3A258&node-id=124-2210&viewport=582%2C318%2C0.26&scaling=scale-down&starting-point-node-id=124%3A2210&show-proto-sidebar=1"
+]);
+
+
+$patchwork_details = new Details ([
+
+    // Top
+    "project_name" => "Patchwork",
+    "project_title" => "Productive schedule manage app",
+    "project_subject" => "Learning hub study case and redesign",
+
+    // Yellow section
+    "image_url" => "patchwork_patchwork_logo_round.svg",
+    "alt" => "This is a logo for Patchwork",
+    "role" => "Kylie: UIUX designer", "Jerrel: Web Developer"
+    "duration" => "25 hours",
+    "tools" => "Figma",
+    "introduction" => "The goal of this project is to design an alternative system of the learning hub for the peers at BCIT to overseeing their all the upcoming schedule of assignments and exams. ",
+    "live" => "https://patchwork.jerrellustre.com/public/"
 ]);
 
 
@@ -43,7 +61,7 @@ $choffe_details = new Details ([
     // Top
     "project_name" => "Choffe",
     "project_title" => "Coffee Shop",
-    "project_subject" => "Website Design and Development",
+    "project_subject" => "Web Design and Development",
 
     // Yellow section
     "image_url" => "Choffe logo_verti.svg",
@@ -63,7 +81,7 @@ $coBear_details = new Details ([
     // Top
     "project_name" => "Cobear",
     "project_title" => "Beverage Company",
-    "project_subject" => "Digital Illustration",
+    "project_subject" => "3D Digital Illustration",
 
     // Yellow section
     "image_url" => "cobear_logo.svg",
@@ -75,21 +93,21 @@ $coBear_details = new Details ([
     "live" => "#"
 ]);
 
-$mooday_details = new Details ([
+// $mooday_details = new Details ([
 
-    // Top
-    "project_name" => "Mooday",
-    "project_title" => "Mood Tracker",
-    "project_subject" => "Style Guide for App design",
+//     // Top
+//     "project_name" => "Mooday",
+//     "project_title" => "Mood Tracker",
+//     "project_subject" => "Style Guide for App design",
 
-    // Yellow section
-    "image_url" => "mooday_logo.svg",
-    "alt" => "This is a logo for Mooday",
-    "role" => "Graphic designer",
-    "duration" => "15 hours",
-    "tools" => "Adobe Illustrator" . "<br>" . "Figma" . "<br>" . "Procreate",
-    "introduction" => "The goal of this project is to experience the workflow on Waterfall Methodologies with creating an app prototype, email template and landing page.  ",
-    "live" => "#"
-]);
+//     // Yellow section
+//     "image_url" => "mooday_logo.svg",
+//     "alt" => "This is a logo for Mooday",
+//     "role" => "Graphic designer",
+//     "duration" => "15 hours",
+//     "tools" => "Adobe Illustrator" . "<br>" . "Figma" . "<br>" . "Procreate",
+//     "introduction" => "The goal of this project is to experience the workflow on Waterfall Methodologies with creating an app prototype, email template and landing page.  ",
+//     "live" => "#"
+// ]);
 
 

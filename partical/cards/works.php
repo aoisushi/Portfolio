@@ -12,7 +12,9 @@
         <a href="<?php echo $Project->link; ?>"><p><?php echo $Project->subject; ?></p></a>
         <!-- tags -->
         <div>
-            <span class="tags">Design</span>
-        </div>
+            <?php foreach($Project->attr as $attr_item): ?>
+                <span class="tags"><?php echo $attr_item; ?></span>
+                <?php endforeach; ?>
+        </div>  
     </div>
 </div>

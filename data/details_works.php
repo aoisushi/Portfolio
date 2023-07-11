@@ -8,8 +8,21 @@ $paru = new Project([
     "subject" => "E-commerce App design",
     "image" => "paru_cover.jpg",
     "alt" => "Accessories online shop in UIUX mobile and desktop design",
-    "link" => "pa-ru.php"
+    "link" => "pa-ru.php",
+    "attr" => ["UI/UX", "App Design", "Figma"]
 ]);
+
+$patchwork = new Project([
+    "filter" => "uiux",
+    "name" => "Patchwork",
+    "title" => "Alternative Resource to student hub",
+    "subject" => "D2L Study Case",
+    "image" => "patchwork_mockup.png",
+    "alt" => "A alternative ",
+    "link" => "patchwork.php",
+    "attr" => ["UI/UX", "Figma"]
+]);
+
 
 // Web Dev
 $hisani = new Project([
@@ -19,7 +32,8 @@ $hisani = new Project([
     "subject" => "Mobile-first single-page website",
     "image" => "hisani_cover.jpg",
     "alt" => "A design of mobile page for a omakase restaurant",
-    "link" => "hisani.php"
+    "link" => "hisani.php",
+    "attr" => ["Web Dev", "HTML", "CSS", "JavaScript"]
 ]);
 
 $choffe = new Project([
@@ -29,7 +43,8 @@ $choffe = new Project([
     "subject" => "Website Design and Development",
     "image" => "choffe_cover.png",
     "alt" => "A single land page for Choffe, a waffle and coffee shop",
-    "link" => "choffe.php"
+    "link" => "choffe.php",
+    "attr" => ["UIUX", "Web Dev", "Tailwind"]
 ]);
 
 
@@ -41,7 +56,8 @@ $c4choco = new Project([
     "subject" => "My Persional Brand",
     "image" => "c4choco_cover.png",
     "alt" => "This is Kylie's personal illustration brand",
-    "link" => "c4choco.php"
+    "link" => "c4choco.php",
+    "attr" => ["Illustration", "Branding", "Procreate"]
 ]);
 
 $coBear = new Project([
@@ -51,7 +67,8 @@ $coBear = new Project([
     "subject" => "Digital Illustration",
     "image" => "coBear_cover.jpg",
     "alt" => "A beverage company branding design",
-    "link" => "cobear.php"
+    "link" => "cobear.php",
+    "attr" => ["Illustration", "Brand Design"]
 ]);
 
 $mooday = new Project([
@@ -61,14 +78,12 @@ $mooday = new Project([
     "subject" => "Style Guide for App Design",
     "image" => "mooday_cover.jpg",
     "alt" => "A style gudie for an app design",
-    "link" => "mooday.php"
+    "link" => "mooday.php",
+    "attr" => ["Style Guide"]
 ]);
 
 
 
 $home = [$paru, $choffe, $c4choco];
-// $uiux = [$paru, $hisani];
-// $branding = [$coBear, $c4choco, $mooday];
-$all = [$paru, $hisani, $coBear, $c4choco, $mooday, $choffe];
-
+$all = [$paru, $hisani, $coBear, $c4choco, $choffe, $patchwork];
 ?>

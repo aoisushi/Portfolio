@@ -99,11 +99,11 @@
     <section>
         <div class="c4_container is-grid">
             <!-- color palette picture -->
-            <div class="c4_color col-12-sm col-12-md col-5-lg"> 
+            <div class="c4_color col-12-sm col-12-md col-6-lg"> 
                 <img src="images/c4_color.png" alt="main color palette of c4choco">
             </div>
             <!-- color palette content -->
-            <div class="col-12-sm col-12-md col-5-lg">
+            <div class="col-12-sm col-12-md col-6-lg">
                 <div class="c4_color_content bg_yel">
                     <h3>Color Palette</h3>
                     <p>I usually use warm color tone on my drawings because base on my topic, I want to bring out some message about caring, love and relationship. The color chosen are having some similarities to my personal branding and c4choco. Because the personal branding idea is come from c4choco. </p>

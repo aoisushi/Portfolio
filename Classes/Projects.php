@@ -10,8 +10,8 @@ class Project {
     public $image;
     public $alt;
     public $link;
+    public $attr;
 
-    
     public function __construct($props = []) {
 
         $this->filter = $props['filter'] ?? null;
@@ -21,6 +21,7 @@ class Project {
         $this->image = $props['image'] ?? null;
         $this->alt = $props['alt'] ?? null;
         $this->link = $props['link'] ?? null;
+        $this->attr = $props['attr'] ?? null;
     }
     
 }
@@ -56,10 +57,3 @@ class Details {
         $this->live = $props['live'] ?? null;
     }
 }
-
-// the filter tags
-// class tags {
-
-//     public $
-
-// }
