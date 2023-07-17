@@ -82,7 +82,7 @@
                     <h2 class="is-flex justi_cen">✨My Passionate</h2>
                     <div class="hobby_wrapper">
                         <div class="hobby_container col-12-sm col-6-md col-4-lg">
-                            <img src="images/flower.jpg" alt="">
+                            <img src="images/flower.jpg" alt="Drawing">
                             <div class="hobby_content">
                                 <h4>Drawings 🐰🎨</h4>
                                 <div></div>
@@ -92,7 +92,7 @@
                             
                         </div>
                         <div class="hobby_container col-12-sm col-6-md col-4-lg">
-                            <img src="images/bearmei.jpg" alt="">
+                            <img src="images/bearmei.jpg" alt="Teddy bear photo">
                             <div class="hobby_content">
                                 <h4>Handcraft 🧸📷</h4>
                                 <p>I made my first teddy bear at <a style="text-decoration: underline;" href="https://www.instagram.com/patronsaintbear/" target="_blank">“Patron Saint Bear”</a>. I like the achievement of making something realistic from scratch.</p>
@@ -101,7 +101,7 @@
                             
                         </div>
                         <div class="hobby_container col-12-sm col-6-md col-4-lg">
-                            <img src="images/coffee.jpg" alt="">
+                            <img src="images/coffee.jpg" alt="Coffee">
                             <div class="hobby_content">
                                 <h4>Coffee ☕🍪</h4>
                                 <p>One coffee a day is already become my habit now. I like trying different coffee from different coffee shops, and I like staying at a cafe and chilling all day.</p>

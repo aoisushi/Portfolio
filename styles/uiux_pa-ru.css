@@ -1,0 +1,60 @@
+/* Pa-ru Section4 */
+
+.detail_content_pro_sol {
+    padding-inline: 3rem;
+    /* padding-block: 2rem; */
+    margin: auto;
+    align-items: center;
+    padding-bottom: 35px;
+}
+
+
+.paru_bg_pink {
+    background-color: var(--bgPink);
+    padding: 18px;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+.paru_bg_blue {
+    background-color: var(--bgBlue);
+    padding: 18px;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+.paru_bg_yellow {
+    background-color: var(--bgYellow);
+    padding: 18px;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+.paru_narrow {
+    transform: rotate(90deg);
+}
+
+.paru_problem_narrow {
+    transform: rotate(90deg);
+}
+
+
+/* =======================================
+                Media Query 
+   =======================================*/
+
+   @media only screen and (min-width: 834px) {
+    .paru_problem_narrow {
+        transform: rotate(0);
+    } 
+}
+
+   @media only screen and (min-width: 1080px) {
+    
+    .detail_problem_grid {
+        width: 70rem;
+        margin: auto;
+    }
+
+    
+   }

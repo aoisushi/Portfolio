@@ -15,10 +15,10 @@ $paru = new Project([
 $patchwork = new Project([
     "filter" => "uiux",
     "name" => "Patchwork",
-    "title" => "Alternative Resource to student hub",
-    "subject" => "D2L Study Case",
+    "title" => "Alternative site to learning hub",
+    "subject" => "Learning hub Study Case",
     "image" => "patchwork_mockup.png",
-    "alt" => "A alternative ",
+    "alt" => "A alternative Resource to student hub",
     "link" => "patchwork.php",
     "attr" => ["UI/UX", "Figma"]
 ]);
@@ -41,7 +41,7 @@ $choffe = new Project([
     "name" => "Choffe",
     "title" => "Waffles + Coffee Shop",
     "subject" => "Website Design and Development",
-    "image" => "choffe_cover.png",
+    "image" => "choffe_cover.jpg",
     "alt" => "A single land page for Choffe, a waffle and coffee shop",
     "link" => "choffe.php",
     "attr" => ["UIUX", "Web Dev", "Tailwind"]
@@ -84,6 +84,6 @@ $mooday = new Project([
 
 
 
-$home = [$paru, $choffe, $c4choco];
+$home = [$paru, $choffe, $patchwork];
 $all = [$paru, $hisani, $coBear, $c4choco, $choffe, $patchwork];
 ?>

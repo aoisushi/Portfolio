@@ -2,8 +2,9 @@
 @import url(../styles/home.css);
 @import url(../styles/about.css);
 @import url(../styles/discipline.css);
-@import url(../styles/details.css);
-@import url(../styles/uiux_detail.css); /* detail page base + c4choco page */
+@import url(../styles/details.css); /* detail page base + c4choco page */
+@import url(../styles/uiux_detail.css); 
+@import url(../styles/uiux_pa-ru.css);
 @import url(../styles/uiux_hisani.css);
 @import url(../styles/branding_mooday.css);
 @import url(../styles/branding_cobear.css);
@@ -36,6 +37,7 @@
     line-height: 1.6;
     font-weight: 400;
     max-width: 100%;
+    scroll-behavior: smooth;
 }
 
 body {

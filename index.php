@@ -32,16 +32,15 @@ include('data/details_works.php');
                     </div>
 
                     <div class="text_align narrow">
-                        <!-- <ion-icon size="large" name="arrow-down-outline"></ion-icon> -->
-                        <p style="color: #295976">Scroll Down</p>
-                        <p style="font-size: 33px;">👇🏼</p>
+                        <a href="#feature" style="color: #295976">Scroll Down
+                            <br><span style="font-size: 33px;">👇🏼</span>
+                        </a>
                     </div>
                 
                 </section>
-
         </div>
 
-            <section class="homepage_work">
+            <section id="feature" class="homepage_work">
                 <div class="homepage_work_wrap align_center text_align">
                     <h2 class="home_work_h2">👩🏻‍💻 Feature Works</h2>
                     <div class="is-grid works_container">

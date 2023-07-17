@@ -46,7 +46,7 @@
                         </ul>
                     </div>
                     
-                    <a href="<?php echo $current_project->live; ?>" class="live_btn">View Live Page</a>
+                    <a href="<?php echo $current_project->live; ?>" class="live_btn" target="_blank">View Live Page</a>
                 </div>
             </div>
         </section>

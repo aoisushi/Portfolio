@@ -15,24 +15,25 @@
 
 .artifact-overview::before {
     content: '';
-    width: 50px;
-    height: 50px;
+    width: 3.125rem;
+    height: 3.125rem;
     background-image: url('../images/logo.svg');
     background-repeat: no-repeat;
     position: absolute;
     left: 50%;
-    transform: translate(-25px, -25px);
+    transform: translate(-1.5625rem, -1.5625rem);
     top: 0;
 }
 
 .intro_space {
-    width: 327px;
+    width: 20.4375rem;
 }
 
 .art_space, .intro_space {
     /* padding-inline: 2rem; */
     padding-block: 2rem;
     margin: auto;
+    max-width: 1200px;
 }
 
 .c4_arti_logo {
@@ -50,16 +51,13 @@
     margin: 2rem 0;
 }
 
-/* .art_space {
-    margin-top: 2rem;
-} */
 
 .c4_logo {
     width: 18.75rem;
 }
 
 .characters_section h3 {
-    margin: 15px;
+    margin: 0.9375rem;
 }
 
 .c4_characters {
@@ -93,12 +91,13 @@
 }
 
 .characters h4, .characters p {
-    margin-top: 15px;
+    margin-top: 0.9375rem;
 }
 
 .c4_container {
     align-items: center;
     margin: auto;
+    max-width: 1080px;
 }
 
 .c4_color, .c4_color_content {
@@ -108,7 +107,7 @@
 .c4_color img {
     display: block;
     margin: 0 auto;
-    width: 350px;
+    width: 21.875rem;
 }
 
 .c4_color_content {
@@ -122,18 +121,18 @@
 /* ==== Slider ==== */
 .slider_wrapper {
     margin: auto;
-    width: 360px;
+    width: 22.5rem;
     position: relative;
 }
 
 /* left and right button */
 .slider_wrapper ion-icon {
-    height: 33px;
-    width: 33px;
-    padding: 12px;
+    height: 2.0625rem;
+    width: 2.0625rem;
+    padding: 0.75rem;
     cursor: pointer;
     text-align: center;
-    line-height: 46px;
+    line-height: 2.875rem;
     background: var(--pink);
     border-radius: 50%;
     position: absolute;
@@ -169,7 +168,7 @@
 }
 
 .carousel img {
-    height: 380px;
+    height: 23.75rem;
     object-fit: cover;
     width: calc(100% / 1);
     margin-right: 15px;
@@ -207,7 +206,7 @@
         }
 
         .slider_wrapper {
-            width: 800px;
+            width: 50rem;
         }
 
     }
@@ -217,6 +216,7 @@
     .top_container {
         display: flex;
         margin: auto;
+        width: 75vw;
     }
 
     .arti_hero_bg, .top_content {

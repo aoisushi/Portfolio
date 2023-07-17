@@ -88,7 +88,7 @@
         </section>
 
         <!-- Section4: Logo design -->
-        <section class="02">
+        <section id="02">
             <div class="detail_content_wrap">
                 <div class="detail_content_container">
                     <h3>Logo Design</h3>
@@ -118,7 +118,7 @@
             </div>
         </section>
        
-        <section>
+        <section id="03">
             <div class="detail_content_wrap">
                 <div class="detail_proto_container">
        

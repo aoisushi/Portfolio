@@ -54,7 +54,7 @@
         <section>
             <div class="detail_content_wrap">
                 <div class="detail_proto_container">
-                    <h3>Project Goal</h3>
+                    <h3>Project Goals</h3>
                     <ul>
                         <li>📌 To design a better system to oversee the Assignments and Exams in a new interface design based on the user feedback from our peers</li>
                         <li>📌 To organize a list of “Assignments” and “Exams” in a page of “Upcoming” page</li>
@@ -202,7 +202,7 @@
             <div class="detail_content_wrap">
                 <div class="detail_content_container">
                     <h3>Web Development</h3>
-                    <p>After finishing the part of design, I passed it to <span><a style="text-decoration: underline; color: #EBB2B2;" href="https://jerrellustre.com/backend-projects/Jerrellustre-patchwork-ProjectLog.php">Jerrel</a></span> to develop the website.  </p>
+                    <p>After finishing the part of design, I passed it to <span><a style="text-decoration: underline; color: #EBB2B2;" href="https://jerrellustre.com/backend-projects/Jerrellustre-patchwork-ProjectLog.php" target="_blank">Jerrel</a></span> to develop the website.  </p>
                     <ul>
                         <li><h4>Languages</h4></li>
                         <li>🚀 Tailwind</li>
@@ -212,7 +212,7 @@
                         <li>🚀 Alpine.js</li>
                     </ul>
                     <div style="margin-top: 33px;">
-                        <a href="https://patchwork.jerrellustre.com/public/" class="detail_btn">View Live Page</a>
+                        <a href="https://patchwork.jerrellustre.com/public/" target="_blank" class="detail_btn">View Live Page</a>
                     </div>
                 </div>
                 <div class="detail_content_container">

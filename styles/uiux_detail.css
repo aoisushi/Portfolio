@@ -18,10 +18,6 @@
 
 .summary_01, .summary_02, .summary_03 {
     font-size: 65px;
-    /* background-color: var(--btnBg);
-    border-radius: 50%;
-    width: 150px;
-    height: 150px; */
     margin: auto;
     text-align: center;
 }
@@ -68,7 +64,6 @@
 }
 
 .detail_images {
-    /* background-color: var(--bgYellow); */
     padding: 18px;
 }
 
