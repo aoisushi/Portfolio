@@ -133,6 +133,35 @@ Footer {
    width: 1.5rem;
 }
 
+.ig_icon {
+   color: var(--pink);
+   margin-right: 10px;
+}
+
+.ig_icon:hover {
+   color: var(--darkPink);
+   transition: .3s;
+}
+
+.li_icon {
+   color: var(--blue);
+   margin-right: 10px;
+}
+
+.li_icon:hover {
+   color: var(--lightBlue);
+   transition: .3s;
+}
+
+.em_icon {
+   color: var(--yellow);  
+   margin-right: 10px;
+}
+
+.em_icon:hover {
+   color: #d0b517;
+   transition: .3s;
+}
 
 @media only screen and (min-width: 834px) {
 

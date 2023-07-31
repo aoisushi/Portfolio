@@ -49,7 +49,7 @@
                         <li>This is my personal drawing account established in early 2020 on Instagram. This brand aims to share the funny daily life stories of mine and with my bunnies. </li>
                     </ul>
                 </div>
-                <a style="margin: 10px 0; color: #EBB2B2; text-align: center;" href="http://instargram.com/c4choco" target="_blank"><ion-icon size="large" name="logo-instagram"></ion-icon></a>
+                <a href="https://www.instagram.com/c4choco" title="Find me on Instagram" target="_blank"><ion-icon size="large" class="ig_icon" name="logo-instagram"></ion-icon></a>
             </div>
         </div>
     </section>
@@ -138,7 +138,7 @@
 
     <section>
         <div class="text_align"  style="margin-bottom: 33px;">
-            <a href="http://instargram.com/c4choco" class="live_btn" target="_blank">View c4choco's Instagram</a>
+            <a href="http://instargram.com/c4choco" class="live_btn" target="_blank">View More Artworks</a>
         </div>
 
         <div class="text_align" style="margin-bottom: 33px;">

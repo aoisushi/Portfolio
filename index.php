@@ -17,11 +17,11 @@ include('data/details_works.php');
                     <div class="home_wrap">
                         <div class="home_wrap_text">
                             <h1>Hello! I'm <span class="pink_text">Kylie</span></h1>
-                            <h4>Using <span style="color: #7497c1;">creative</span> design to solve <span style="color: #7497c1;">problems</h4>
+                            <h4>Using <span class="blue_text">creative</span> design to solve <span class="blue_text">problems</h4>
                             <p>As a UI/UX designer, front-end developer, and illustrator, I wholeheartedly devote myself to unleashing my creativity in every aspect of my work.</p>
                             <div>
                                 <a class="home_button" href="about.php">About Me</a>
-                                <a class="home_button" href="project.php">My Projects</a>
+                                <a class="home_button" href="images/Kylie_Chan_resume.pdf" target="_blank">Resume</a>
                             </div>
                         </div>
 
@@ -32,7 +32,7 @@ include('data/details_works.php');
                     </div>
 
                     <div class="text_align narrow">
-                        <a href="#feature" style="color: #295976">Scroll Down
+                        <a href="#feature">Scroll Down
                             <br><span style="font-size: 33px;">👇🏼</span>
                         </a>
                     </div>

@@ -23,6 +23,17 @@ $patchwork = new Project([
     "attr" => ["UI/UX", "Figma"]
 ]);
 
+$peTie = new Project([
+    "filter" => "uiux",
+    "name" => "PeTie",
+    "title" => "A pet health and care manage app",
+    "subject" => "Learning hub Study Case",
+    "image" => "patchwork_mockup.png",
+    "alt" => "A pet care app",
+    "link" => "petie.php",
+    "attr" => ["UI/UX", "Figma"]
+]);
+
 
 // Web Dev
 $hisani = new Project([
@@ -85,5 +96,7 @@ $mooday = new Project([
 
 
 $home = [$paru, $choffe, $patchwork];
-$all = [$paru, $hisani, $coBear, $c4choco, $choffe, $patchwork];
+// $all = [$paru, $hisani, $coBear, $c4choco, $choffe, $patchwork];
+$all = [$paru, $hisani, $c4choco, $peTie, $choffe, $patchwork];
+
 ?>

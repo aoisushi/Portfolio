@@ -37,6 +37,23 @@ $patchwork_details = new Details ([
     "live" => "https://patchwork.jerrellustre.com/public/"
 ]);
 
+$peTie_details = new Details ([
+
+    // Top
+    "project_name" => "PeTie",
+    "project_title" => "Pet Care App",
+    "project_subject" => "Pet health tracking app",
+
+    // Yellow section
+    "image_url" => "patchwork_patchwork_logo_round.svg",
+    "alt" => "This is a logo for PeTie",
+    "role" => "Kylie: UIUX designer",
+    "duration" => "",
+    "tools" => "Figma" . "<br>" . "Notion",
+    "introduction" => "",
+    "live" => ""
+
+]);
 
 // Web Dev
 $hisani_details = new Details ([

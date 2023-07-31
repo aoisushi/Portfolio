@@ -81,12 +81,12 @@
 }
 
 .dark_pink_text {
-    color: #DD6F6F;
+    color: var(--darkPink);
     font-weight: 900;
 }
 
 .medi_pink_text {
-    color: #833d3d;
+    color: var(--darkerPink);
     background-color: #f8c4cba9;
     padding: 0.1875rem;
     border-radius: 0.3125rem;
@@ -104,15 +104,6 @@
     font-weight: 600;
 }
 
-.about_hero_content h1, 
-.about_hero_content h4,
-.about_hero_content p,
-.lang h4 {
-    margin-bottom: 1.9375rem;
-    text-align: center;
-}
-
-
 /* Language */
 .lang {
     display: grid;
@@ -121,14 +112,21 @@
     margin: 6.25rem 0;
 }
 
+.about_hero_content h1, 
+.about_hero_content h4,
+.about_hero_content p,
+.lang h4 {
+    margin-bottom: 1.9375rem;
+    text-align: center;
+}
 
 .lang h4 {
     justify-content: right;
     color: var(--blue);
-    font-size: 1.5rem;
+    font-size: 1.5rem;   
 }
 
-.lang ul li {
+.lang_btn {
     line-height: 2.0625rem;
     text-align: center;
     background-color: #F1D5D5;
@@ -139,13 +137,13 @@
     cursor: pointer;
 }
 
-.lang ul li:hover {
+/* .lang_btn:hover {
     background-color: #FCF6D5;
     border: 0.125rem solid var(--yellow);
     transition: all 0.3s ease-out;
-}
+} */
 
-.can:hover:after {
+/* .can:hover:after {
     content: "大家好！(Native)";
 }
 
@@ -159,7 +157,7 @@
 
 .en:hover:after {
     content: "Hello!!(Fluent)";
-}
+} */
 
 /* Skillsets */
 

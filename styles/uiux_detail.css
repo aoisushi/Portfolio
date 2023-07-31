@@ -88,11 +88,17 @@
 }
 
 .detail_btn {
-    background-color: var(--bgPink);
+    /* background-color: var(--bgPink);
     color: var(--btnFontColor);
     border-radius: 44px;
     text-align: center;
-    padding: 15px;
+    padding: 15px; */
+    background-color: var(--btnBg);
+    color: var(--btnFontColor);
+    border-color: var(--btnFontColor);
+    border: 1px solid var(--btnFontColor);
+    border-radius: 2.0625rem;
+    padding: 15px 45px;
 }
 
 .back_to_top {
@@ -140,9 +146,12 @@
    
     /* btn */
     .detail_btn:hover {
-        background-color: var(--bgYellow);
+        /* background-color: var(--bgYellow);
         color: var(--btnFontColor);
-        border: 0.0625rem solid var(--yellow);
+        border: 0.0625rem solid var(--yellow); */
+        border: 2px solid var(--btnFontColor);
+        background-color: var(--yellow);
+        box-shadow: #7497c1 0.375rem 0.375rem 0.0625rem;    
     }
 
     .detail_btn:hover:after {

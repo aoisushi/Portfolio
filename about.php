@@ -34,10 +34,10 @@
                     <div class="lang">
                         <h4>You can speak with me in.....</h4>
                         <ul class="is-grid">
-                            <li class="col-12-sm col-6-md col-3-lg can"><img src="images/logo.svg" width="25"> Cantonese 🇭🇰</li>
-                            <li class="col-12-sm col-6-md col-3-lg ch"><img src="images/logo.svg" width="25"> Mandarins 🇹🇼</li>
-                            <li class="col-12-sm col-6-md col-3-lg jp"><img src="images/logo.svg" width="25"> Japanese 🇯🇵</li>
-                            <li class="col-12-sm col-6-md col-3-lg en"><img src="images/logo.svg" width="25"> English 🇨🇦</li>
+                            <li class="col-12-sm col-6-md col-3-lg lang_btn can"><img src="images/logo.svg" width="25"> Cantonese 🇭🇰</li>
+                            <li class="col-12-sm col-6-md col-3-lg lang_btn ch"><img src="images/logo.svg" width="25"> Mandarins 🇹🇼</li>
+                            <li class="col-12-sm col-6-md col-3-lg lang_btn jp"><img src="images/logo.svg" width="25"> Japanese 🇯🇵</li>
+                            <li class="col-12-sm col-6-md col-3-lg lang_btn en"><img src="images/logo.svg" width="25"> English 🇨🇦</li>
                         </ul>
                     </div>
                 </section>
@@ -73,59 +73,58 @@
                                 </ul>
                             </div>
                         </div>
-
                     </div>
-                    
                 </section>
 
+                <!-- My Passionate -->
                 <section>
                     <h2 class="is-flex justi_cen">✨My Passionate</h2>
                     <div class="hobby_wrapper">
+                        <!-- My first interest -->
                         <div class="hobby_container col-12-sm col-6-md col-4-lg">
-                            <img src="images/flower.jpg" alt="Drawing">
+                            <a href="https://www.instagram.com/c4choco" target="_blank"><img src="images/flower.jpg" alt="Drawing"></a>
                             <div class="hobby_content">
                                 <h4>Drawings 🐰🎨</h4>
                                 <div></div>
                                 <p>I think drawings is a process of self-healing. I love using illustration to tell a story and indicate my feelings at that moment.</p>
-                                <a href="https://www.instagram.com/c4choco"><ion-icon style="font-size: 25px; color: #7497c1" name="logo-instagram"></ion-icon></a>
+                                <a href="https://www.instagram.com/c4choco" target="_blank"><ion-icon style="font-size: 25px; color: #7497c1" name="logo-instagram"></ion-icon></a>
                             </div>
-                            
                         </div>
+
+                        <!-- My second interest -->
                         <div class="hobby_container col-12-sm col-6-md col-4-lg">
-                            <img src="images/bearmei.jpg" alt="Teddy bear photo">
+                            <a href="https://www.instagram.com/my_bearmeibear" target="_blank"><img src="images/bearmei.jpg" alt="Teddy bear photo"></a>
                             <div class="hobby_content">
                                 <h4>Handcraft 🧸📷</h4>
                                 <p>I made my first teddy bear at <a style="text-decoration: underline;" href="https://www.instagram.com/patronsaintbear/" target="_blank">“Patron Saint Bear”</a>. I like the achievement of making something realistic from scratch.</p>
-                                <a href="https://www.instagram.com/my_bearmeibear"><ion-icon style="font-size: 25px; color: #7497c1" name="logo-instagram"></ion-icon></a>
+                                <a href="https://www.instagram.com/my_bearmeibear" target="_blank"><ion-icon style="font-size: 25px; color: #7497c1" name="logo-instagram"></ion-icon></a>
                             </div>
-                            
                         </div>
+
+                        <!-- My Third interest -->
                         <div class="hobby_container col-12-sm col-6-md col-4-lg">
                             <img src="images/coffee.jpg" alt="Coffee">
                             <div class="hobby_content">
                                 <h4>Coffee ☕🍪</h4>
                                 <p>One coffee a day is already become my habit now. I like trying different coffee from different coffee shops, and I like staying at a cafe and chilling all day.</p>
                             </div>
-                            
                         </div>
                         
                     </div>
-                    
                 </section>
+
 
                 <section class="contact_me">
                         <div class="text_align logo_animation">
                             <img class="" src="images/personal-logo-refine-03.png">
                         </div>
-                        <h3 style="font-size: 65px;" class="text_align">Keep In Touch</h3>
+                        <h3 style="font-size: 60px;" class="text_align">Keep In Touch</h3>
                         <div>
                             <p style="margin-top: 15px; text-align: center;">Feel free to reach out to work together or just to chat!</p>
                         </div>
                 </section>
 
-
-
-
+                
                 <!-- My vlaue -->
                 <!-- <section class="myValue">
                     <h2 class="is-flex justi_cen about_spacing">✨My Values</h2>
@@ -147,7 +146,6 @@
                         </div>
                     </div>
                 </section> -->
-                
                 <!-- My Skills -->
                 <!-- <section class="mySkills">
                     <h2 class="is-flex justi_cen about_spacing">✨Skills</h2>
@@ -201,6 +199,8 @@
                         </div>
                     </div>
                 </section> -->
+
+
                 <script src="scripts/script.js"></script>
             </main>
         <?php require('partical/global/footer.php') ?>

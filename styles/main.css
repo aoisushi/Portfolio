@@ -27,6 +27,12 @@
     --fontcolor: #3F3F3F;
     --btnFontColor: #191931;
     --fontColorOnHeader: #1E1E1E;
+    /* Span color */
+    --lightBlue: #7497c1;
+    --darkPink: #DD6F6F;
+    /* About page - highlight text */
+    --darkerPink: #833d3d;
+    --highlight: #f8c4cba9;
     /* Button */
     --btnBg: #EAB3B3;
 }
@@ -52,6 +58,10 @@ a {
 
 button a {
     color: var(--btnFontColor);
+}
+
+li {
+    margin-bottom: 15px;
 }
 
 /* ============= Typography ============= */
@@ -99,7 +109,6 @@ section {
 .align_center {align-items: center;}
 .justi_cen {justify-content: center;}
 
-
 /* gird - column */
 .col-1-sm { grid-column: span 1; }
 .col-2-sm { grid-column: span 2; }
@@ -125,24 +134,6 @@ section {
     border-radius: 2.0625rem;
     padding: 15px 45px;
 }
-
-/* dividing line */
-/* .div_3dots {
-    width: 6.25rem;
-    margin: 4rem 0;
-} */
-
-
-/* the little cat filter */
-
-/* .work_filter {
-    color: var(--pink);
-    border: 1px solid var(--pink);
-    font-size: 0.75rem;
-    border-radius: 4rem;
-    padding: 0.3125rem 0.8125rem;
-    margin: 0.3125rem 0.1875rem;
-} */
 
 /* Color Background */
 .bg_yel {background-color: #FCF6D5;}
@@ -209,8 +200,6 @@ section {
     .btn:hover:after {
         content: " ➡️ ";
     }
-
-
 
 } /* Tablet size end here*/
 
