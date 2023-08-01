@@ -45,12 +45,12 @@ $peTie_details = new Details ([
     "project_subject" => "Pet health tracking app",
 
     // Yellow section
-    "image_url" => "patchwork_patchwork_logo_round.svg",
+    "image_url" => "PeTie_logo.svg",
     "alt" => "This is a logo for PeTie",
-    "role" => "Kylie: UIUX designer",
-    "duration" => "",
+    "role" => "UIUX designer",
+    "duration" => "20 hours",
     "tools" => "Figma" . "<br>" . "Notion",
-    "introduction" => "",
+    "introduction" => "A pet care app / website that helps pet owner to manage their pet care all in one app.",
     "live" => ""
 
 ]);

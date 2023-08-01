@@ -96,7 +96,7 @@ $mooday = new Project([
 
 
 $home = [$paru, $choffe, $patchwork];
-// $all = [$paru, $hisani, $coBear, $c4choco, $choffe, $patchwork];
-$all = [$paru, $hisani, $c4choco, $peTie, $choffe, $patchwork];
+$all = [$paru, $hisani, $coBear, $c4choco, $choffe, $patchwork];
+// $all = [$paru, $hisani, $c4choco, $peTie, $choffe, $patchwork];
 
 ?>
