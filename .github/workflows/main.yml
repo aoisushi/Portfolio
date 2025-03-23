@@ -17,3 +17,4 @@ jobs:
         server: ftp.kylieaoichan.com
         username: portfolio-ftp@kylieaoichan.com
         password: ${{ secrets.ftp_password }}
+        timeout: 60000 # Increase the timeout value
