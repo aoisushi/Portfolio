@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<?php include('partical/global/head.php'); ?>
+  <body>
+      <!-- Header -->
+      <?php require('partical/global/header.php'); ?>
+      <main>
+        <!-- Hero Banner -->
+        <div class="hero-banner"></div>
+        <!-- Menu - sidebar -->
+        <!-- <nav class="sidebar-nav">
+            <ul>
+                <li class="section-links">
+                    <a href="#overview" class="tab-links active">Overview</a>
+                </li>
+                <li class="section-links">
+                    <a href="#problem" class="tab-links">Problem</a>
+                </li>
+
+            </ul>
+        </nav> -->
+        
+        <!-- Main Content -->
+        <div class="main-content">
+            <div class="container">
+                <!-- Hero Section + Overview -->
+                <section class="section-here">
+                    <div class="hero-section">
+                        <!-- Tags -->
+                        <div class="tag-flex">
+                            <p class="tag">Product Design</p>
+                            <p class="tag">Web Dev</p>
+                        </div>
+    
+                        <!-- Hero Overview -->
+                        <div class="hero-overview-container">
+                            <div class="hero-overview">
+                                <!-- Headings -->
+                                <div class="case-title">
+                                    <h1 class="h1 blue">
+                                        WE/ON - App design for generating fashion tips with live weather
+                                    </h1>
+                                </div>
+                                <!-- intro -->
+                                <div class="overview-p">
+                                    <p>WE/ON is a personal side project designed to provide <span class="p-bold">real-time outfit recommendations based on live weather conditions.</span> The goal was to create an intuitive and minimalist app that helps users dress appropriately for the day with ease.</p>
+                                </div>
+                            </div>
+        
+                            <!-- details -->
+                            <div class="details-gap">
+                                <div class="details-item">
+                                    <h4 class="blue">Tool</h4>
+                                    <p>Figma, VSCode, Github</p>
+                                </div>
+                                <div class="details-item">
+                                    <h4 class="blue">Role</h4>
+                                    <p>Product Designer</p>
+                                </div>
+                                <div class="details-item">
+                                    <h4 class="blue">Duration</h4>
+                                    <p>In Progress</p>
+                                </div>
+                                <div class="details-item">
+                                    <h4 class="blue">Industry</h4>
+                                    <p>Tech / Mobile App</p>
+                                </div>
+                            </div>
+                        </div>
+       
+                        <!-- BackLinks -->
+                        <div class="all-links">
+                            <a class="links" href="https://aoisushi.github.io/weon" target="_blank">Live site →</a>
+                        </div>
+    
+                    </div>
+                </section>
+        
+                <!-- Process -->
+                <!-- Problem Statement -->
+                <div class="process-container">
+                    
+                    <div class="process-p-gap process-max-width">
+                        <h2>Problem Statement</h2>
+                        <p>Many users struggle with deciding what to wear based on unpredictable weather conditions. The challenge was to create a simple and effective solution that provides weather-based outfit recommendations in a user-friendly interface.</p>
+                    </div>
+
+                    <div class="process-p-gap">
+                        <img src="./images/weon-img.png">
+                    </div>
+
+                    <!-- Pain Points -->
+                    <div class="process-p-gap">
+                        <h4>User Pain Points</h4>
+                        <ul class="is-grid">
+                            <li class="col-12-sm col-6-md col-6-lg">
+                                <div class="pain-point-container">
+                                    <h4 class="h1">🤔</h4>
+                                    <p>Uncertainty about daily weather when planning outfits.🧤</p> 
+                                </div>
+                            </li>
+                            <li class="col-12-sm col-6-md col-6-lg">
+                                <div class="pain-point-container">
+                                    <h4 class="h1">🫨</h4>
+                                    <p>Lack of a quick, visual solution for choosing clothes based on the forecast.☁️</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <!-- Target users -->
+                    <div class="process-p-gap">
+                        <h4>Target Users</h4>
+                        <ul class="is-grid">
+                            <li class="col-12-sm col-6-md col-4-lg">
+                                <div class="audience-container">
+                                    <img class="audience-img" src="./images/target-audience-2.png" alt="office workers">
+                                    <h5 class="blue">Office Workers</h5>
+                                    <P>People who want efficient outfit decisions before heading to work.</P>
+                                </div>
+                            </li>
+
+                            <li class="col-12-sm col-6-md col-4-lg">
+                                <div class="audience-container">
+                                    <img class="audience-img" src="./images/target-audience.png" alt="fashion-savvy">
+                                    <h5 class="blue">Fashion-Savvy</h5>
+                                    <P>People who care about style and want outfit recommendations based on weather.</P>
+                                </div>
+                            </li>
+
+                            <li class="col-12-sm col-6-md col-4-lg">
+                                <div class="audience-container">
+                                    <img class="audience-img" src="./images/target-audience-3.png" alt="travelers">
+                                    <h5 class="blue">Travelers</h5>
+                                    <P>People who need quick weather updates to plan outfits efficiently on the go.</P>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+    
+                    
+                </div>
+
+                <!-- How does it work -->
+                <div class="process-container">
+                    <div class="process-p-gap">
+                        <h3>How does it work? </h3>
+                        <div class="is-flex process-flex-box">
+                            <p>Using real-time weather data, WE/ON offers personalized fashion suggestions for your day. <br><br>For example, if the temperature drops below 15°C, WE/ON might recommend wearing a cardigan as your best outfit for the day, along with a friendly reminder to bring an umbrella if rain is expected.</p>
+                            <img src="./images/weon-explaination.png">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Design & Development Process -->
+                <div class="process-container">
+                    <div class="process-p-gap">
+                        <h2>Design & Development Process</h2>
+                    </div>
+
+                    <!-- 1. MVP -->
+                    <div class="process-p-gap">
+                        <h3>1. MVP Development</h3>
+                        <ul>
+                            <li>
+                                <p class="mb-48">
+                                    The Minimum Viable Product (MVP) approach was crucial in ensuring that WE/ON started with a simple yet functional version before expanding to more features. The goal was to avoid feature overload and focus on the core experience: delivering quick, reliable fashion tips based on real-time weather.
+                                </p>
+                                <div class="is-flex process-flex-box">
+                                    <div>
+                                        <h5 class="mb-24">1.1 Started with a minimalist approach</h5>
+                                        <p>Instead of building a complex app with multiple features at once, the focus was on creating a streamlined, user-friendly experience with just the essentials.</p>
+                                    </div>
+                                    <img src="./images/weon-design-system-1.png" alt="WEON design system">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="is-flex process-flex-box">
+                                    <div>
+                                        <h5 class="mb-24">1.2 Core Technologies Used:</h5>
+                                        <ul class="process-listed-item">
+                                            <li>➡️ HTML & CSS – Built the basic structure and design of the app.</li>
+                                            <li>➡️ JavaScript – Used for interactivity and integrating weather APIs.</li>
+                                            <li>➡️ API Integration – Connected to a real-time weather API to pull live temperature, humidity, and forecast data.</li>
+                                        </ol>
+                                    </div>
+                                    <img src="./images/weon-code-preview.png" alt="WEON code with live preview">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <!-- 2. Core Features -->
+                    <div class="process-p-gap">
+                        <h3>2. Core Features</h3>
+
+                        <!-- Weather Integration -->
+                        <div>
+                            <h5 class="mb-24">2.1 Live Weather Integration</h5>
+                            <ul class="is-grid mb-48">
+                                <li class="col-12-sm col-6-md col-4-lg">
+                                    <div>
+                                        <img src="./images/weon-insert-location.png" alt="">
+                                        <div class="details-text-container">
+                                            <h5 class="h5 mb-24"> ✳️ Real-Time Updates</h5>
+                                            <p>Fetches live weather data based on the user’s location.</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="col-12-sm col-6-md col-4-lg">
+                                    <div>
+                                        <img src="./images/weon-showing-current-weather.png" alt="">
+                                        <div class="details-text-container">
+                                            <h5 class="h5 mb-24"> ✳️ Location Search</h5>
+                                            <p>Users can manually search for a city or use auto-location detection.</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="col-12-sm col-6-md col-4-lg">
+                                    <div>
+                                        <img src="./images/weon-full-version.png" alt="">
+                                        <div class="details-text-container">
+                                            <h5 class="h5 mb-24"> ✳️ Weather Details</h5>
+                                            <p>Retrieves temperature, humidity, wind speed, and precipitation to personalize recommendations.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- Outfit Recommendations -->
+                        <div>
+                            <h5>2.2 Outfit Recommendations</h5>
+                            <div class="is-flex process-flex-box">
+                                <div>
+                                    <p class="mb-24">WE/ON dynamically suggests weather-appropriate outfits based on real-time conditions.</p>
+
+                                    <ul class="process-listed-item">
+                                        <li>Cold Weather (< 10°C / 50°F) → Recommends coats, scarves, and thermal layers.</li>
+                                        <li>Moderate Weather (10–20°C / 50–68°F) → Suggests light jackets or layering options.</li>
+                                        <li>Hot Weather (> 25°C / 77°F) → Advises breathable fabrics, t-shirts, and sun protection.</li>
+                                    </ul>
+                                </div>
+                                <img src="./images/weon-fashion-code.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Next Steps & Future Improvements -->
+                <div class="process-container">
+                    <h2 class="mb-24">Next Steps & Future Improvements</h2>
+                    <ul class="process-listed-item">
+                        <li>🚀 Expand the Outfit Recommendation System – Allow users to customize clothing preferences.</li>
+                        <li>📱 Develop a Mobile App – Bring WE/ON to iOS & Android for on-the-go accessibility.</li>
+                        <li>🤖 AI-Powered Personalization – Use AI to recommend outfits based on user style preferences.</li>
+                        <li>🧥 Wardrobe Integration – Enable users to log their wardrobe and get outfit recommendations based on owned clothing.</li>
+                    </ul>
+                </div>
+
+
+            </div>    
+        </div>
+        
+    </main>
+    <?php require('partical/global/footer.php'); ?>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

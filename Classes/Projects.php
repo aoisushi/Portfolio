@@ -5,7 +5,6 @@ class Project {
 
     public $filter;
     public $name;
-    public $title;
     public $subject;
     public $image;
     public $alt;
@@ -16,7 +15,6 @@ class Project {
 
         $this->filter = $props['filter'] ?? null;
         $this->name = $props['name'] ?? null;
-        $this->title = $props['title'] ?? null;
         $this->subject = $props['subject'] ?? null;
         $this->image = $props['image'] ?? null;
         $this->alt = $props['alt'] ?? null;
@@ -26,7 +24,7 @@ class Project {
     
 }
 
-// Details page
+// Project indiviual page
 class Details {
     
     public $project_name;

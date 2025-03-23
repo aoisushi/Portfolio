@@ -1,0 +1,29 @@
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding: 24px 0;
+}
+
+.footer p {
+    text-align: center;
+    font-size: 14px;
+}
+
+.sm-icons {
+    display: flex;
+    gap: 24px;
+}
+
+.sm-icon {
+    color: var(--blue);
+    font-size: 24px !important;
+    transition: all 0.2s ease-in-out;
+}
+
+.sm-icon:hover {
+    color: var(--brightBlue);
+}
