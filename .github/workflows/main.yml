@@ -17,4 +17,5 @@ jobs:
         server: ftp.kylieaoichan.com
         username: portfolio-ftp@kylieaoichan.com
         password: ${{ secrets.ftp_password }}
+        passive: true  # Set to true to enable passive mode
         timeout: 60000 # Increase the timeout value
