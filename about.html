@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Kylie Chan">
+    <meta name="description" content="Kylie Chan is a UI/UX Designer and front-end developer based in Vancouver, BC. Solving problems through creativities and communication.">
+    <meta name="keywords" content="kylie chan, uiux designer, frontend developer, vancouver web developer, vancouver uiux designer, bcit new media, illustration, illustrator vancouver, hong kong ">
+    <meta name="theme-color" content="#FCF6D5">
+    <meta property="og:title" content="Kylie Chan, a BCIT graduated UIUX designer and Front-End Developer | Portfolio">
+    <meta property="og:url" content="http://kylieaoichan.com/">
+    <meta property="og:image" content="https://kylieaoichan.com/images/logo.svg" >
+    <meta property="og:type" content="website" >
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/about.css">
+    <title>Kylie Chan | UI/UX Designer</title>
+
+    <!-- scroll bar style -->
+    <style>
+    /* width */
+    ::-webkit-scrollbar {
+    width: 10px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+    background: #D9E5FF;
+    }
+    
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+    background: #D9E5FF; 
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+    background: #3366FF; 
+    }
+    </style>
+    
+</head>
+<body>
+    <div class="header-wrapper">
+        <header>
+            <div class="logo">
+                <a href="index.html"><img src="./images/logo.svg" alt="logo"></a>
+            </div>
+            <input type="checkbox" id="nav_check" hidden>
+            <nav>
+                <div class="logo">
+                <a href="#"><img src="./images/logo.svg" alt="logo"></a>
+                </div>
+                <ul>
+                    <!-- <li>
+                        <a href="index.html" class="active">Home</a>
+                    </li> -->
+                    <!-- <li>
+                        <a href="about.html">About</a>
+                    </li> -->
+                    <li>
+                        <a href="index.html#work">Work</a>
+                    </li>
+                    <li>
+                        <a href="./images/resume.pdf" target="_blank">Resume</a>
+                    </li>
+                    <li>
+                        <a class="btn" href="mailto:kylieoychan@gmail.com">Let's Connect</a>
+                    </li>
+                </ul>
+            </nav>
+            <label for="nav_check" class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </label>
+        </header>
+    </div>
+    <div class="header-gap"></div>
+    <main>
+        <section class="section-gap">
+            <div class="container">
+                <div class="about-section-gap">
+                    <div class="is-flex about-hero">
+                        <img src="./images/ky_img.png" alt="">
+                        <div class="">
+                            <h5>Hello👋🏻 I'm Kylie</h5>
+                            <h3>I'm a UX Engineer with a blend of skills from design, development and marketing. </h3>
+                            <p>I focus on creating seamless, user-centered products by combining my expertise in design and development. My experience in marketing gives me a deeper understanding of how to align business goals with user needs and behavior.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skills -->
+                <div class="about-section-gap">
+                    <h3 class="mb-24">Skills</h3>
+                    <div class="is-flex">
+                        <p class="tag">UIUX</p>
+                        <p class="tag">Design</p>
+                        <p class="tag">Web Dev</p>
+                        <p class="tag">HTML</p>
+                    </div>
+                </div>
+
+                <!-- My Roadmap to UIUX -->
+
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <div class="sm-icons">
+                    <a href="https://www.instagram.com/kylie_aoi" title="Find me on Instagram" target="_blank"><ion-icon class="sm-icon" name="logo-instagram"></ion-icon></a>
+                    <a href="https://www.linkedin.com/in/kyliechan731/" title="Find me on LinkedIn" target="_blank"><ion-icon class="sm-icon" name="logo-linkedin"></ion-icon></a>
+                    <a href="mailto:kylieaoichan@gmail.com" title="Contact me with Email" target="_blank"><ion-icon class="sm-icon" name="mail-outline"></ion-icon></a>
+                </div>
+                <p>🦁 Hand code by Kylie Chan &copy; 2025</p>
+            </div>
+
+            <!-- icons -->
+            <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        </div>
+    </footer>
+</body>
+<script src="scripts/script.js"></script>
+</html>

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Kylie Chan">
+    <meta name="description" content="Kylie Chan is a UI/UX Designer and front-end developer based in Vancouver, BC. Solving problems through creativities and communication.">
+    <meta name="keywords" content="kylie chan, uiux designer, frontend developer, vancouver web developer, vancouver uiux designer, bcit new media, illustration, illustrator vancouver, hong kong ">
+    <meta name="theme-color" content="#FCF6D5">
+    <meta property="og:title" content="Kylie Chan, a BCIT graduated UIUX designer and Front-End Developer | Portfolio">
+    <meta property="og:url" content="http://kylieaoichan.com/">
+    <meta property="og:image" content="https://kylieaoichan.com/images/logo.svg" >
+    <meta property="og:type" content="website" >
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <title>Kylie Chan | UI/UX Designer</title>
+
+    <!-- scroll bar style -->
+    <style>
+    /* width */
+    ::-webkit-scrollbar {
+    width: 10px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+    background: #D9E5FF;
+    }
+    
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+    background: #D9E5FF; 
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+    background: #3366FF; 
+    }
+    </style>
+    
+</head>
+<body> 
+    <div class="header-wrapper">
+        <header>
+            <div class="logo">
+                <a href="index.html"><img src="./images/logo.svg" alt="logo"></a>
+            </div>
+            <input type="checkbox" id="nav_check" hidden>
+            <nav>
+                <div class="logo">
+                <a href="#"><img src="./images/logo.svg" alt="logo"></a>
+                </div>
+                <ul>
+                    <!-- <li>
+                        <a href="index.html" class="active">Home</a>
+                    </li> -->
+                    <!-- <li>
+                        <a href="about.html">About</a>
+                    </li> -->
+                    <li>
+                        <a href="index.html#work">Work</a>
+                    </li>
+                    <li>
+                        <a href="./images/resume.pdf" target="_blank">Resume</a>
+                    </li>
+                    <li>
+                        <a class="btn" href="mailto:kylieoychan@gmail.com">Let's Connect</a>
+                    </li>
+                </ul>
+            </nav>
+            <label for="nav_check" class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </label>
+        </header>
+    </div>
+    <div class="header-gap"></div>
+    <main>
+        <section class="section-gap">
+            <div class="hero container">
+                <!-- Greeting -->
+                <div class="hero-greeting">
+                    <h1 class="self-span">Hello👋🏻 I'm Kylie</h1>
+                    <img class="home-self" src="./images/ky_img.png">
+                </div>
+                <!-- self-intro -->
+                <div class="hero-intro">
+                    <h1 class="h2">
+                        A UX Engineer blending <span class="shilo">design</span>, <span class="brightBlue">development</span>, and <span class="blue">marketing strategy</span> to create impactful solutions.
+                    </h1>
+                </div>
+                <!-- See my work -->
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="34" height="79" viewBox="0 0 34 79" fill="none">
+                        <path d="M2.42719 2C10.4272 3.5 14.42 8.45581 16.5439 14.9849C18.6814 21.5557 19.2648 30.1657 17.5474 36.936C16.9042 39.4717 15.4865 42.5873 12.969 43.8036C9.51503 45.4724 6.27921 42.3037 5.09799 39.3507C3.66369 35.7649 4.18681 31.2024 7.76348 29.0964C10.3363 27.5814 13.6836 27.0869 16.6066 27.5598C21.8819 28.4131 25.4272 30 28.9272 35.5C35.9272 46 27.6188 66.2735 20.4272 74" stroke="#3366FF" stroke-width="3" stroke-linecap="round"/>
+                        <path d="M17.7783 68.5344C17.8629 70.1427 17.9577 71.7738 17.9577 73.3906C17.9577 73.5181 18.095 77.1208 18.3367 77.0402C18.9314 76.8419 19.4799 76.5528 20.1016 76.392C21.3266 76.0752 22.5481 75.7015 23.7512 75.3101C24.9743 74.9123 26.2068 74.5803 27.4507 74.2581C28.195 74.0653 29.0484 73.9596 29.7143 73.5601" stroke="#3366FF" stroke-width="3" stroke-linecap="round"/>
+                    </svg>
+                    
+                    <a class="hero-link" href="#work">
+                        <h5>See My Work</h5>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Works -->
+        <section id="work" class="section-gap">
+            <div class="header-gap"></div>
+            <div class="is-grid container">
+                <div class="col-12-sm col-6-md col-6-lg">
+                    <div class="card-container">
+
+                        <!-- image -->
+                        <div class="image-cover">
+                            <a href="weon.html">
+                                <img src="images/weon_cover.jpg" alt="WE/ON, web app">
+                            </a>
+                        </div>
+                        
+                        <!-- title -->
+                        <div class="card-content">
+                            <a href="weon.html">
+                                <h3 class="h4 blue">
+                                    WE/ON - App design for generating fashion tips with live weather
+                                </h3>
+                            </a>
+
+                            <!-- subtitle -->
+                            <a href="weon.html">
+                                <p class="p text">
+                                    A weather-based fashion app offering real-time outfit recommendations.
+                                </p>
+                            </a>
+
+                            <!-- tags -->
+                            <div class="work-tags-container">
+                                <span class="tag">Product Design</span>
+                                <span class="tag">Web Dev</span>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12-sm col-6-md col-6-lg">
+                    <div class="card-container">
+
+                        <!-- image -->
+                        <div class="image-cover">
+                            <a href="mili.html">
+                                <img src="images/mili-cover.webp" alt="MiLi, a E-commerce landing page design for smart tech products company">
+                            </a>
+                        </div>
+                        
+                        <!-- title -->
+                        <div class="card-content">
+                            <a href="mili.html">
+                                <h3 class="h4 blue">
+                                    MiLi - Optimizing UX for a Tech accessary company
+                                </h3>
+                            </a>
+
+                            <!-- subtitle -->
+                            <a href="mili.html">
+                                <p class="p text">
+                                    Optimized UX for a tech accessories store, improving navigation, branding, and conversions.
+                                </p>
+                            </a>
+
+                            <!-- tags -->
+                            <div class="work-tags-container">
+                                <span class="tag">UX Research</span>
+                                <span class="tag">Web Dev</span>
+                                <span class="tag">Design System</span>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <div class="sm-icons">
+                    <a href="https://www.instagram.com/kylie_aoi" title="Find me on Instagram" target="_blank"><ion-icon class="sm-icon" name="logo-instagram"></ion-icon></a>
+                    <a href="https://www.linkedin.com/in/kyliechan731/" title="Find me on LinkedIn" target="_blank"><ion-icon class="sm-icon" name="logo-linkedin"></ion-icon></a>
+                    <a href="mailto:kylieaoichan@gmail.com" title="Contact me with Email" target="_blank"><ion-icon class="sm-icon" name="mail-outline"></ion-icon></a>
+                </div>
+                <p>🦁 Hand code by Kylie Chan &copy; 2025</p>
+            </div>
+
+            <!-- icons -->
+            <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        </div>
+    </footer>
+</body>
+<script src="scripts/script.js"></script>
+</html>
