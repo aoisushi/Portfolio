@@ -88,7 +88,17 @@
             <div class="hero container">
                 <!-- Greeting -->
                 <div class="hero-greeting">
-                    <h1 class="self-span">Hi👋🏻 I'm Kylie</h1>
+                    <h1 class="self-span">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 160" width="400" height="160" role="img" aria-label="Hi, I'm Kylie" preserveAspectRatio="xMidYMid meet">
+                            <defs>
+                                <!-- Half-arc path (semi-circle) -->
+                                <path id="hi-arc-path" d="M 20 120 A 180 180 0 0 1 380 120" />
+                            </defs>
+                            <text fill="currentColor" font-size="40" font-family="inherit" text-anchor="middle">
+                                <textPath href="#hi-arc-path" startOffset="50%">Hi👋🏻 I'm Kylie</textPath>
+                            </text>
+                        </svg>
+                    </h1>
                     <img class="home-self" src="./images/ky_img.png">
                 </div>
                 <!-- self-intro -->
